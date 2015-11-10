@@ -2,7 +2,7 @@
 [comment]: Dat image link doe! Note the folder prefix.
 
 [comment]: This is an anchor link example
-1. <a href="#anchor-link1">Markdown Wiki Examples</a>
+1. <a href="#anchor-link1">Bottom of page</a>
 
 #Titles, yaazzz such title, so wow, very impress
 # Text
@@ -61,3 +61,5 @@ Header | Other Header
 -------|-------------
 Cell 1 | Cell 2
 Cell Stuff 1b | Cell Stuff 2b
+
+<a name="anchor-link1">
