@@ -38,6 +38,10 @@ Everyone does markdown a bit different, make sure you use the official github ma
 * [Github wiki showcase](https://github.com/showcases/projects-with-great-wikis). Great examples
 * [Link to great basic github wiki](https://github.com/Netflix/Hystrix/wiki)
 
+***
+## More examples
+These examples really only make sense if you clone this wiki and look at the actual markdown files.
+
 The following is a ~~great~~ code fencing example :+1:
 
 ```python
