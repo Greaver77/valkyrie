@@ -1,8 +1,8 @@
-[[images/valkyrie-robot-nasa.png]]
+[[images/valkyrie-robot-nasa.png]]  
 Dat image link doe! Note the folder prefix.
 
-This is an anchor link example
-1. <a href="#anchor-link1">Bottom of page</a>
+This is an anchor link example  
+<a href="#anchor-link1">Bottom of page</a>
 
 #Titles, yaazzz such title, so wow, very impress
 # Text
@@ -16,13 +16,14 @@ This is an anchor link example
 
 Wikis on github use pure markdown for formatting.  
 Note: In order to 'return' you have to add two blank spaces on the end of a line.  
-if you *forget* to _add_ the **spaces**
+If you *forget* to _add_ the **spaces**
 you get __one__ run-on sentence.
 
 ***
 
 _Be sure to look at the following **links** for a solid example for formatting._  
-Also make sure to look at how you can do username @ mentions, SHA references, github issue references, 
+Also make sure to look at how you can do username @ mentions, SHA references, and github issue references.  
+Everyone does markdown a bit different, make sure you use the official github markdown guides.  
 
 * [Github Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 * [Live Editor](https://jbt.github.io/markdown-editor/)
@@ -40,14 +41,13 @@ You can also inline `code examples` in a sentence.
 ###### Numbered Lists:
 1. Item number one, Robots  
 2. Item number two, ??????  
-3. Item number three, ^profit?^  
+3. Item number three, profit?  
 
 ###### Bullet Lists:
 * I
 * Am
 * A
-* Bullet
-* List
+* Bullet List
 
 - I am
   - another bullet list
