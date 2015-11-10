@@ -4,15 +4,7 @@ Dat image link doe! Note the folder prefix.
 This is an anchor link example  
 <a href="#anchor-link1">Bottom of page</a>
 
-#Titles, yaazzz such title, so wow, very impress
-# Text
-## Text
-### Text
-#### Text
-##### Text
-###### Text
-
-***
+# Wiki Markdown Maker Goer
 
 This page essentially is a style guide as well, but really all one needs to do is clone the wiki space, for this wiki its: https://github.com/NASA-JSC-Robotics/valkyrie.wiki.git  
 
@@ -39,9 +31,20 @@ Everyone does markdown a bit different, make sure you use the official github ma
 * [Link to great basic github wiki](https://github.com/Netflix/Hystrix/wiki)
 
 ***
-## More examples
+## Examples
 These examples really only make sense if you clone this wiki and look at the actual markdown files.
 
+#Titles, yaazzz such title, so wow, very impress
+# Text
+## Text
+### Text
+#### Text
+##### Text
+###### Text
+
+***
+
+###### Code
 The following is a ~~great~~ code fencing example :+1:
 
 ```python
