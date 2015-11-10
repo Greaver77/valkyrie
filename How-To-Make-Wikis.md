@@ -14,6 +14,14 @@ This is an anchor link example
 
 ***
 
+This page essentially is a style guide as well, but really all one needs to do is clone the wiki space, for this wiki its: https://github.com/NASA-JSC-Robotics/valkyrie.wiki.git  
+
+Make sure when you're adding pages you follow the github style. All pages **must** be capitalized. Some *special* pages will have an underscore infront of them, these are sitewide additions to the wiki pages and will show up on every page.  
+Examples:
+```
+New-Page.md Home.md _Footer.md
+```
+
 Wikis on github use pure markdown for formatting.  
 Note: In order to 'return' you have to add two blank spaces on the end of a line.  
 If you *forget* to _add_ the **spaces**
