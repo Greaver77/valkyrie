@@ -14,6 +14,7 @@ __Useful Links__
     * Logging
   * Software
     * Hardware API
+    * Getting Multisense Data
     * Get our code(Debians or source?)
     * Valkyrie Gazebo Simulation
     * Running Controllers on Valkyrie
