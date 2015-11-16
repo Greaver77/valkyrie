@@ -5,13 +5,13 @@ __Useful Links__
 * [How To Make Github Wikis](How-To-Make-Wikis)
   * Valkyrie
     * Hardware
-  * Juice Box Setup
+    * Juice Box Setup
     * Network
-      * Operating Val
-      * Safety
-        * Faults
-        * E-stop
-      * Logging
+    * Operating Val
+    * Safety
+      * Faults
+      * E-stop
+    * Logging
   * Software
     * Hardware API
     * Get our code(Debians or source?)
