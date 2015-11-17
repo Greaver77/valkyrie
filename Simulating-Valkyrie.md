@@ -15,4 +15,4 @@ This will bring up a window where you will need to add a new Gradle Run Configur
 
 [[images/AddPublishToValkyrieLocal.png]]
 
-In the "name" field, you can choose to name the script whatever you like(here we have chosen **Publish to Valkyrie Local**). In the **Gradle Task** field, you should put ':ValkyrieHardwareDrivers:deployLocal', and in the **Working Directory** field,
+In the **Name** field, you can choose to name the script whatever you like(here we have chosen 'Publish to Valkyrie Local'). In the **Gradle Task** field, you should put ':ValkyrieHardwareDrivers:deployLocal', and in the **Working Directory** field, you should put '${workspace_loc:/_WorkspaceName}' where _WorkspaceName should be replaced with the name of your workspace beginning with an underscore. For example, in the above image, the name of the gradle workspace is 'IHMC_Robotics'; therefore, for the **Working Directory** field I would put '${workspace_loc:/_IHMC_Robotics}'.
