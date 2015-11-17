@@ -14,3 +14,5 @@ This tutorial details how to get Valkyrie walking around in Gazebo using the wal
 This will bring up a window where you will need to add a new Gradle Run Configuration. Create a new Run Configuration as shown here:
 
 [[images/AddPublishToValkyrieLocal.png]]
+
+In the "name" field, you can choose to name the script whatever you like(here we have chosen **Publish to Valkyrie Local**). In the **Gradle Task** field, you should put ':ValkyrieHardwareDrivers:deployLocal', and in the **Working Directory** field,
