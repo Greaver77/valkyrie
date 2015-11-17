@@ -22,3 +22,9 @@ With any luck, your Eclipse console should look something like,
 [[images/SuccessfulValkyriePublish.png]]
 
 and you should now have a new directory at ~/valkyrie(/home/user/valkyrie) which contains .jar files for running IHMC's controller.
+
+Now you are ready to launch Valkyrie in Gazebo. Execute the following command in a terminal,
+
+```bash
+roslaunch val_gazebo val_sim.launch
+```
