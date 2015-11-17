@@ -1,6 +1,6 @@
 [[images/under_construction.png]]  
 
-# Requirements
+# Prerequisites
 To follow these instructions, you must first have the following:
 * Working installation of Simulation Construction Set(SCS [LINK LINK LINK])(Optional of you want to roll your own walking controller)
 * Valkyrie Software(get that [here](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Our-Code))
