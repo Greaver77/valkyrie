@@ -8,13 +8,13 @@ __Useful Links__
     * Juice Box Setup
     * Network
     * Operating Val
-    * Safety
+    * [Safety](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Safety)
       * Faults
       * E-stop
-    * Logging
+    * Logging Setup
   * Software
     * Hardware API
     * Perception Sensor Data
-    * Get our code(Debians or source?)
-    * Valkyrie Gazebo Simulation
+    * [Get our code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Our-Code)
+    * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
     * Running Controllers on Valkyrie
