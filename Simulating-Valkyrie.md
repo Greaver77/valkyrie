@@ -17,7 +17,7 @@ This will bring up a window where you will need to add a new Gradle Run Configur
 
 In the **Name** field, you can choose to name the script whatever you like(here we have chosen 'Publish to Valkyrie Local'). In the **Gradle Task** field, you should put ':ValkyrieHardwareDrivers:deployLocal', and in the **Working Directory** field, you should put '${workspace_loc:/_WorkspaceName}' where _WorkspaceName should be replaced with the name of your workspace beginning with an underscore. For example, in the above image, the name of the gradle workspace is 'IHMC_Robotics'; therefore, for the **Working Directory** field I would put '${workspace_loc:/_IHMC_Robotics}'.
 
-With any luck, your Eclipse console should look something like,
+With any luck, your Eclipse console should out something similar to,
 
 [[images/SuccessfulValkyriePublish.png]]
 
@@ -28,3 +28,14 @@ Now you are ready to launch Valkyrie in Gazebo. Execute the following command in
 ```bash
 roslaunch val_gazebo val_sim.launch
 ```
+
+You will see some warning lines in the terminal as the sim launches that may look like,
+
+'''
+Warning [parser.cc:713] XML Element[sensor_number], child of element[sensor] not defined in SDF. Ignoring[sensor_number]. You may have an incorrect SDF file, or an sdformat version that doesn't support this element.
+Warning [parser.cc:713] XML Element[node], child of element[sensor] not defined in SDF. Ignoring[node]. You may have an incorrect SDF file, or an sdformat version that doesn't support this element.
+Warning [parser.cc:713] XML Element[api], child of element[sensor] not defined in SDF. Ignoring[api]. You may have an incorrect SDF file, or an sdformat version that doesn't support this element.
+[ WARN] [1447800392.287289543]: Possibly missing an api or node tag from one or more imu sensors
+'''
+
+don't worry about these, they are expected and are not reflecting any actual problems. This will bring up a paused Gazebo sim with Valkyrie ready to go.
