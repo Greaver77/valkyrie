@@ -1,3 +1,6 @@
 [[images/under_construction.png]]  
 
-# Before reading any further, make sure you have a working installation of Simulation Construction Set(SCS)[LINK LINK LINK] as well as the valkyrie code(get that here[LINK LINK LINK])
+# Requirements
+To follow these instructions, you must first have the following:
+* Working installationg of Simulation Construction Set(SCS [LINK LINK LINK])(Optional of you want to roll your own walking controller)
+* Valkyrie Software(get that here[LINK LINK LINK])
