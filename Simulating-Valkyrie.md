@@ -10,3 +10,7 @@ To follow these instructions, you must first have the following:
 This tutorial details how to get Valkyrie walking around in Gazebo using the walking controller provided by The Florida Institute for Human and Machine Cognition([IHMC](http://robots.ihmc.us/)), and works very much the same as getting the IHMC walking controller running on the real Valkyrie. First, the controller must be deployed to the robot, which in the case of simulation your local machine will be acting as the robot. To deploy IHMC's controller, you will need to add a Run Configuration in Eclipse. To do this, click the dropdown arrow next to the green play button([[images/EclipsePlayButton.png]]) near the top of Eclipse and select 'RunConfigurations...',
 
 [[images/EclipseRunConfigurations.png]]
+
+This will bring up a window where you will need to add a new Gradle Run Configuration. Create a new Run Configuration as shown here:
+
+[[images/AddPublishToValkyrieLocal.png]]
