@@ -8,8 +8,6 @@ __Useful Links__
   * Network
   * Operating Val
   * [Safety](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Safety)
-    * Faults
-    * E-stop
   * Logging Setup
 * Software
   * Hardware API
