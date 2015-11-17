@@ -19,6 +19,6 @@ In the **Name** field, you can choose to name the script whatever you like(here 
 
 With any luck, your Eclipse console should look something like,
 
-[[images/SuccessfulValkyriePublish]]
+[[images/SuccessfulValkyriePublish.png]]
 
 and you should now have a new directory at ~/valkyrie(/home/user/valkyrie) which contains .jar files for running IHMC's controller.
