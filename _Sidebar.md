@@ -11,7 +11,9 @@ __Useful Links__
   * Logging Setup
 * Software
   * Hardware API
-  * [Perception Sensors](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Perception-Sensors)
+  * Perception Sensors
+    * [Multisense SL](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Perception-Sensors)
+    * [Belly Cams](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Belly-Cams)
   * [Get Our Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Our-Code)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
   * Running Controllers on Valkyrie
