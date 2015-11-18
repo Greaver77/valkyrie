@@ -9,6 +9,7 @@ __Useful Links__
   * Operating Val
   * [Safety](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Safety)
   * Logging Setup
+  * [Onboard Computers](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Onboard-Computers)
 * Software
   * Hardware API
   * Perception Sensors
