@@ -28,7 +28,7 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## [Lower Neck Pitch](https://youtu.be/ociZaKF0tQw)
 
-## Neck Yaw
+## [Neck Yaw](https://youtu.be/Kh7yX1gp57s)
 
 ## Upper Neck Pitch
 
