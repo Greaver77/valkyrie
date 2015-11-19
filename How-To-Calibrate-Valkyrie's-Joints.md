@@ -34,7 +34,7 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## [Knee Pitch](https://youtu.be/ejU2QimhXzI)
 
-## Ankle
+## [Ankle](https://youtu.be/XuRsS6dZCk8)
 
 ## Hips
 
