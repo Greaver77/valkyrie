@@ -12,13 +12,15 @@
 # Calibrating Valkyrie's Joints
 You will first need to remove the soft goods surrounding the joint(s) you are calibrating. If you are calibrating the entire robot, it will save time if you just remove them all up front.
 
-## Shoulder Pitch
+[[images/robot_clothes.png]]
 
-## Shoulder Roll
+## [Shoulder Pitch](https://www.youtube.com/watch?v=i_R_QV1J_CA)
 
-## [Shoulder Yaw](https://www.youtube.com/watch?v=i_R_QV1J_CA&feature=youtu.be)
+## [Shoulder Roll](https://www.youtube.com/watch?v=QIns0CLNaQc)
 
-## [Elbow Pitch](https://www.youtube.com/watch?v=-FDrI2PnfEU&feature=youtu.be)
+## [Shoulder Yaw](https://youtu.be/vYu5TmopCmc)
+
+## [Elbow Pitch](https://www.youtube.com/watch?v=-FDrI2PnfEU)
 
 ## Forearm Yaw
 
