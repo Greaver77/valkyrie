@@ -26,7 +26,7 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## Wrist
 
-## Lower Neck Pitch
+## [Lower Neck Pitch](https://youtu.be/ociZaKF0tQw)
 
 ## Neck Yaw
 
