@@ -30,7 +30,7 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## [Neck Yaw](https://youtu.be/Kh7yX1gp57s)
 
-## Upper Neck Pitch
+## [Upper Neck Pitch](https://youtu.be/NR9_ybWFIeg)
 
 ## [Knee Pitch](https://youtu.be/ejU2QimhXzI)
 
