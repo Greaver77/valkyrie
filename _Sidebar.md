@@ -10,6 +10,7 @@ __Useful Links__
   * [Safety](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Safety)
   * Logging Setup
   * [Onboard Computers](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Onboard-Computers)
+  * [How-To Calibrate Valkyrie's Joints](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/How-To-Calibrate-Valkyrie's-Joints)
 * Software
   * Hardware API
   * Perception Sensors
