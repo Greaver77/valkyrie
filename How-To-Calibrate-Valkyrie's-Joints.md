@@ -32,7 +32,7 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## Upper Neck Pitch
 
-## Knee Pitch
+## [Knee Pitch](https://youtu.be/ejU2QimhXzI)
 
 ## Ankle
 
