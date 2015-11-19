@@ -16,7 +16,7 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## Shoulder Roll
 
-## Shoulder Yaw
+## [Shoulder Yaw](https://www.youtube.com/watch?v=i_R_QV1J_CA&feature=youtu.be)
 
 ## [Elbow Pitch](https://www.youtube.com/watch?v=-FDrI2PnfEU&feature=youtu.be)
 
