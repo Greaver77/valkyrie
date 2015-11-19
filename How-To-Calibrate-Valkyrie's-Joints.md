@@ -36,6 +36,6 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 ## [Ankle](https://youtu.be/XuRsS6dZCk8)
 
-## Hips
+## [Hips](https://youtu.be/FPSuRZxlhFw)
 
 ## Waist
