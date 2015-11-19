@@ -16,5 +16,7 @@ __Useful Links__
     * [Multisense SL](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Multisense-SL)
     * [Belly Cams](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Belly-Cams)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
+    * [Install Valkyrie Debians](Valkyrie-Debians)
+    * [Checkout Valkyrie Source Code](Valkyrie-Source-Code)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
   * Running Controllers on Valkyrie
