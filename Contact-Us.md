@@ -17,4 +17,4 @@ Something not covered above? Not sure where your question fits? Email this guy:
 **Dustin Gooding** - Architecture Lead for ER4. "I'll tell you how to do it less wrong".  
 **Phil Strawser** - Valkyrie IO and robotics MVP one year running. "That is janky mcjankyerson"  
 **Frank Mathis** - Valkyrie controls. Once ate an entire 52oz peanut butter pretzel can by himself.  
-**Will Rifenburgh** - Valkyrie embedded and joints.  
+**Will Rifenburgh** - Valkyrie embedded and joints. Robot apostle?  
