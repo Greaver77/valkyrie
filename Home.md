@@ -1,5 +1,6 @@
-# Welcome to the Valkyrie wiki home page!  
+#Valkyrie Wiki Home Page  
 
+<p align="center">[[images/val_army.png]]</p>
 Words, many words go here
 
 ##Quick Navigation
