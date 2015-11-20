@@ -1,8 +1,10 @@
 ######The content of this page is updating frequently.
 
 ##Onboard Valkyrie Processors  
-#####> "640 kB ought to be enough for anybody" - Bill Gates
-#####> "64 gb of ram ought to be enough" - Jesper Smith  
+
+> **"640 kB ought to be enough for anybody"** - Bill Gates
+
+> **"64 gb of ram ought to be enough"** - Jesper Smith  
 
 The Valkyrie platform includes two onboard 'high level' processors. We refer to the processors collectively as the _Brainstem_. Individually the processors are referred to by class, roll, or name, _Link_ and _Zelda_.
 
