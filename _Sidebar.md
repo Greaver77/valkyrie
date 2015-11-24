@@ -15,6 +15,8 @@ __Valkyrie__
   * Logging Setup
   * [Onboard Computers](Onboard-Computers)
   * Turbodrivers
+  * [IMU Sensors|IMU-Sensors]
+  * [ATI Sensors|ATI-Sensors]
   * [How-To Calibrate Valkyrie's Joints](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/How-To-Calibrate-Valkyrie's-Joints)
 * Software
   * Hardware API
