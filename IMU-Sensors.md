@@ -1,2 +1,2 @@
 Sensor page
-[Omega85](http://www.ati-ia.com/products/ft/ft_models.aspx?id=Omega85)
+[3dm-gx4-15](http://www.microstrain.com/inertial/3dm-gx4-15)
