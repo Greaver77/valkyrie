@@ -2,7 +2,8 @@
 #####You have questions, we probably have answers. 
 
 * General Hardware: James Holley, james.j.holley@nasa.gov  
-* General Electrical: Kris Verdeyen, william.k.verdeyen@nasa.gov  
+
+* General Electrical: Kris Verdeyen, william.k.verdeyen@nasa.gov
 * General Software: Jordan Lack, jordan.t.lack@nasa.gov  
 
 * Space Robotics Challenge: Kim Hambuchen kimberly.a.hambuchen@nasa.gov
