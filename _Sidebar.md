@@ -17,10 +17,9 @@ __Valkyrie__
   * Turbodrivers
   * [[IMU Sensors|IMU-Sensors]]
   * [[ATI Sensors|ATI-Sensors]]
+  * [Perception Sensors](Perception-Sensors)    
   * [How-To Calibrate Valkyrie's Joints](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/How-To-Calibrate-Valkyrie's-Joints)
 * Software
-  * Hardware API
-  * [Perception Sensors](Perception-Sensors)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
   * Running Controllers on Valkyrie
