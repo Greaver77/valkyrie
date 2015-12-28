@@ -20,9 +20,7 @@ __Valkyrie__
   * [How-To Calibrate Valkyrie's Joints](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/How-To-Calibrate-Valkyrie's-Joints)
 * Software
   * Hardware API
-  * Perception Sensors
-    * [Multisense SL](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Multisense-SL)
-    * [Belly Cams](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Belly-Cams)
+  * [Perception Sensors](Perception-Sensors)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
   * Running Controllers on Valkyrie
