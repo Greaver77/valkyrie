@@ -25,4 +25,4 @@ __Valkyrie__
     * [Belly Cams](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Belly-Cams)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
-  * Running Controllers on Valkyrie
+  * [Running Controllers on Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Running-Controllers-on-Valkyrie)
