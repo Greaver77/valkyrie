@@ -230,3 +230,67 @@ for(unsigned int i = 0; i < effortJointHandles.size(); ++i)
    effortJointHandles[i].setCommand(buffer_command_effort[i]);
 }  
 ```
+The setCommand function allows you to write information through the interface to the hardware. Not every handle has a set function (in face most do not). 
+
+The final line of code
+```bash
+PLUGINLIB_EXPORT_CLASS(simple_controller::SimpleController, controller_interface::ControllerBase)
+```
+allows us to set up the class as a plugin with the base class, controller_interface::ControllerBase, being the class used by the Valkyrie software to load the plugin.
+
+Now that we have gotten through the source code we now need to figure out how to get the controller loaded into the Valkyrie software. Maybe you want to take a break before we do. Maybe you just want to dive right into it. Either way, it is next.
+
+#Spawning The Simple Controller
+Alright, so we have the source code to set up a simple controller and now we need to setup the configuration as well as get the controller to be loaded by the software. To start, lets finish the necessary steps for making the controller a plugin. More information on pluginlib can be found [here](http://wiki.ros.org/pluginlib).
+
+The first addition we need to make the simple controller a plugin is an additional file in the package directory called something like, simplecontroller.xml. The contents of this xml file will be
+```bash
+<library path="lib/libsimple_controller">
+  <class name="simple_controller/SimpleController" type="simple_controller::SimpleController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A simple test controller for ros control
+    </description>
+  </class>
+</library>
+```
+The "lib/libsample_controller" is the library created by your package. Here we have given the plugin the name "simple_controller/SimpleController" which will be important later. Now that we have an xml file that tells us what the name of the plugin, and in what library its source is in, we need to export this for other packages to access. To do this we add the following to the package.xml file:
+```bash
+<export>
+  <controller_interface plugin="${prefix}/simplecontroller.xml"/>
+</export>
+```
+This tells us that the base class plugin is contained in the controller_interface package, and the information on the plugin is contained in the simplecontroller.xml file.
+
+With the plugin defined we will now setup the configuration file for the controller. To do this we start by making a file called "simple_val_knee.yaml". This file will give tell us which joints we will control (spoilers, it is likely a knee) as well as give a separate name for the controller to be used by ros. The contents of the file are as follows
+```bash
+simple_val_knee:
+    type: simple_controller/SimpleController
+    joints:
+        - rightKneePitch
+        - leftKneePitch
+```
+Looking through the file we have the controller is "simple_val_knee", uses the simple_controller/SimpleController plugin, and is controlling both the rightKneePitch and the leftKneePitch. Now that we have the config file setting the configuration of the robot, we can build the launch file for ros
+```bash
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find simple_controller)/config/simple_val_knee.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" args="simple_val_knee"/>
+
+</launch>
+```
+Here we start by loading the configuration file to the rosparmeters with
+```bash
+<rosparam file="$(find simple_controller)/config/simple_val_knee.yaml" command="load"/>
+```
+Then, we use a controller_spawner to spawn our controller as defined in the parameter list with
+```bash
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" args="simple_val_knee"/>
+```
+The spawner uses the ros control architecture to load the controller named in the args (which we associated with a plugin through our config file). When the controller_spawner is stopped, it attempts to unload the controller during the teardown.
+
+Well, thats it. All you need to do is rolaunch the launch file with the controller_spawner, and the simple controller will be loaded and run through the Valkyrie core software. Baring, of course, that the Valkyrie software is running (no software, no control). However, you may have noticed a few undesired traits of the simple example that will not work for more complex controller. Traits such as, being typecast to a single type of interface. Also, being constrained to the loop rate of the Valkyrie core software (which may be too fast for more complex control regimes). We will address some of these issues in the next.
+
+#More Advance Controllers
