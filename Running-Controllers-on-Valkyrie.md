@@ -158,3 +158,75 @@ namespace simple_controller
 }
 PLUGINLIB_EXPORT_CLASS(simple_controller::SimpleController, controller_interface::ControllerBase)
 ```
+Lets go over the components of this code. First we have the constructor and destructor functions
+```bash
+SimpleController::SimpleController()
+{}
+
+SimpleController::~SimpleController()
+{}
+```
+Nothing really to go over here as they don't really do anything special in this case. Next we hop into to init function
+```bash
+ bool SimpleController::init(hardware_interface::EffortJointInterface* hw, ros::NodeHandle& n)
+```
+We start the init function by clearing the vector of joint handles, and declaring a vector (or list) used to store the joint names we will be using
+```bash
+effortJointHandles.clear();
+std::vector<std::string> jointNames;
+```
+So, now we need to actually get the names of the joints we will use as that is how we get the handles (those containers with the data we need). In this case we will try to get them form the node parameter "joints" with the line
+```bash
+if(n.getParam("joints", jointNames))
+```
+This method is nice in that it allows us to put the joints used by the controller in a configuration file, meaning we could use the same controller source code that each grab different joint resources. Alternatively, if we just want the names of all handles owned by the chosen interface you can request that, but we will talk more about that later (when we have more interfaces to deal with).
+
+Once we have the names of the joints we want to use we do a quick check to make sure that the interface isn't empty before we start trying to grab the handles with
+```bash
+for(unsigned int i=0; i < jointsNames.size(); ++i)
+{
+   effortJointHandles.push_back(hw->getHandle(jointNames[i]));
+}
+```
+The member function getHandle trys, as the name implies, to get a handle with a given name (in this case the name is the ith element of the vector jointNames). This does mean that we need the names we chose in the "joints" parameter to match some, or all, of the names used to make the handles. In the case of Valkyrie, the names used to make joint handles are the names of the joints in the urdf (created by the val_description package). Once we have the exact size of the data we will be using (basically the number of handles we actually get) then we preallocate space for any variables used:
+```bash
+buffer_command_effort.resize(effortJointHandles.size(), 0.0);
+buffer_current_positions.resize(effortJointHandles.size(), 0.0);
+buffer_current_velocities.resize(effortJointHandles.size(), 0.0);
+buffer_current_efforts.resize(effortJointHandles.size(), 0.0);
+```  
+We note that the init function returns one of two values. It returns "true" if everything finished properly, or "false" if there were any issues. If the init function returns false, then your controller will not run.
+
+After the init function (and assuming that init didn't return false for whatever reason), we have the starting function
+```bash
+void SimpleController::starting(const rost::Time& time)
+``` 
+For the starting function we have chosen to loop through the list of current positions, velocities, and efforts of the joints we are using, and to get the current values from the hardware at the time of starting
+```bash
+for(unsigned int i = 0; i < effortJointHandles.size(); ++i)
+{
+    buffer_current_positions[i] = effortJointHandles[i].getPosition();
+    buffer_current_velocities[i] = effortJointHandles[i].getVelocity();
+    buffer_current_efforts[i] = effortJointHandles[i].getEffort();
+}
+```
+We see that we use a get function to get values form the handle. The get functions owned by each handle depends on the interface the handle is associated with. In the case of joints we can get position, velocity, effort, and the name (of the joint).
+
+After the controller has started, the update 
+```bash
+void SimpleController::update(const rost::Time& time, const rost::Duration& period)
+```
+will be called periodically by the Valkyrie software.
+
+**Important: the Valkyrie core software runs a 500 hz loop, and the update function of EVERY controller is called ONCE each loop**
+
+The Update in this case runs a simple PD controller about 0 position, 0 velocity with a position gain of 30 and a derivative gain of 1.
+```bash
+for(unsigned int i = 0; i < effortJointHandles.size(); ++i)
+{
+   buffer_current_positions[i] = effortJointHandles[i].getPosition();
+   buffer_current_velocities[i] = effortJointHandles[i].getVelocity();
+   buffer_command_effort[i] = -30*buffer_current_positions[i] - buffer_current_velocities[i];
+   effortJointHandles[i].setCommand(buffer_command_effort[i]);
+}  
+```
