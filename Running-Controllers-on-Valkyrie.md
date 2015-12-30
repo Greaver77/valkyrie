@@ -30,6 +30,7 @@ namespace simple_controller
         bool init(hardware_interface::EffortJointInterface* hw, ros::NodeHandle& n);
         void starting(const rost::Time& time);
         void update(const rost::Time& time, const rost::Duration& period);
+        void stopping(const ros::Time& time);
 
    private:
         std::vector<hardware_interface::JointHandle> effortJointHandles;
@@ -68,11 +69,12 @@ Next, we have the constructor and destructor for the class
 SimpleController();
 virtual ~SimpleController();
 ```
-Followed by three methods: init, starting, and update
+Followed by four methods: init, starting, update, and stopping
 ```bash
 bool init(hardware_interface::EffortJointInterface* hw, ros::NodeHandle& n);
 void starting(const rost::Time& time);
 void update(const rost::Time& time, const rost::Duration& period);
+void stopping(const ros::Time& time);
 ```
 These methods overwrite methods in the Controller class allowing them to be called by the interface. The init method upon initializing the controller, and passes a pointer to the EffortJointInterface as well as the NodeHandle so we can get the handle from the joint we want as well as grab parameter information from the node. The starting is called right as the controller is started which allows for nifty things like stopping and starting the controller without having to reinitialize. The update is called each hardware loop and is where the control is done. Well, sometimes it is where the control is done (this will be discussed more in depth later). 
 
@@ -145,7 +147,7 @@ namespace simple_controller
       }
    }
 
-   void SimpleController::update(const rost::Time& time, const rost::Duration& period)
+   void SimpleController::update(const ros::Time& time, const rost::Duration& period)
    {
       for(unsigned int i = 0; i < effortJointHandles.size(); ++i)
       {
@@ -155,6 +157,9 @@ namespace simple_controller
           effortJointHandles[i].setCommand(buffer_command_effort[i]);
       }   
    }
+
+   void SimpleController::stopping(const ros::Time& time)
+   {}
 }
 PLUGINLIB_EXPORT_CLASS(simple_controller::SimpleController, controller_interface::ControllerBase)
 ```
@@ -232,6 +237,11 @@ for(unsigned int i = 0; i < effortJointHandles.size(); ++i)
 ```
 The setCommand function allows you to write information through the interface to the hardware. Not every handle has a set function (in face most do not). 
 
+After the update, we have the stopping function. This is where we add anything that we want to stop before stopping the controller. The advantage of this is we can stop a controller, and then start it again without ever destructing the controller.
+```bash
+void SimpleController::stopping(const ros::Time& time)
+{}
+```
 The final line of code
 ```bash
 PLUGINLIB_EXPORT_CLASS(simple_controller::SimpleController, controller_interface::ControllerBase)
