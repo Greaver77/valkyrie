@@ -1,7 +1,9 @@
 #Valkyrie Wiki Home Page  
 
 <p align="center">[[images/val_army.png]]</p>
-Words, many words go here
+Welcome to the Valkyrie Wiki!
+
+Valkyrie is a full-body humanoid robotic system developed at NASA's Johnson Space Center in Houston, TX.  This wiki meant to provide information about various sub-systems as well as procedures for operating the robot.
 
 ##Quick Navigation
 
