@@ -18,4 +18,4 @@ The second way to get our code, more appropriate for unstable features or live e
 
 ***
 
-<sub>*Accept for when they're not</sub>
+<sub>*Except for when they're not</sub>
