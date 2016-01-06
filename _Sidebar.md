@@ -20,6 +20,7 @@ __Valkyrie__
     * [[IMU Sensors|IMU-Sensors]]
     * [Perception Sensors](Perception-Sensors)
   * Turbodrivers
+  * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
 * Software
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
