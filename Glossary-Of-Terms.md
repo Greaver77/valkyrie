@@ -5,7 +5,7 @@
 * Link  
 * MLVDS  
 * Robonet  
-* Turbodriver-The turbodriver is 
+* Turbodriver-Turbodrivers are the motor controllers for pretty much all series elastic joints on Valkyrie. These can be found throughout the robot. They are not very visible with the covers on.
 [[images/Turbodriver.png]]
  
 * Vanguard  
