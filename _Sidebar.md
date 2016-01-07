@@ -16,9 +16,6 @@ __Valkyrie__
   * [Robonet](Robonet)
   * [Safety](Safety)
   * [Sensors](Sensors)
-    * [[ATI Sensors|ATI-Sensors]]
-    * [[IMU Sensors|IMU-Sensors]]
-    * [Perception Sensors](Perception-Sensors)
   * Turbodrivers
   * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
 * Software

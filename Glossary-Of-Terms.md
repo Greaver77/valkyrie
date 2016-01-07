@@ -12,7 +12,9 @@
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Turbodriver.png" width="250">
 * Vanguard  
-* Zelda  
+* Zelda-The non real-time computer. Zelda is located on the robots left.
+
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Zelda.png" width="250">
 * Primary
 * Secondary
 * Mass Sim
