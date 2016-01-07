@@ -5,7 +5,7 @@ This page will go through the full process of turning on the robot and getting e
 ##Assumptions##
 1. You are running from a source installation. For running from debians, the steps are pretty much exactly the same just without the steps to make sure your catkin workspaces are built/installed
 
-2. You know your robot's IP address. This documentation will refer to your robots IP addresses as <Link-IP> for the IP address of the Link computer and <Zelda-IP> for the IP address of the Zelda computer.
+2. You know your robot's IP address. This documentation will refer to your robots IP addresses as 'Link-IP' for the IP address of the Link computer and 'Zelda-IP' for the IP address of the Zelda computer.
 
 ##Power On Valkyrie##
 
@@ -35,7 +35,7 @@ catkin_make install
 Now do the same for the workspaces on Link. You will need to ssh into the Link computer to do this, so in a terminal,
 
 ```bash
-ssh -YC val@<Link-IP>
+ssh -YC val@'Link-IP'
 cd ~/val_indigo
 catkin_make install
 ```
