@@ -1,0 +1,1 @@
+Sensors hub page.
