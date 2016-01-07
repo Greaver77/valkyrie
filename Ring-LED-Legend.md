@@ -7,7 +7,7 @@ Two concentric rings of LED lights are mounted in the center of Valkyrie's chest
 ###### Ring LED :
 Color | Action | Description | Picture
 :--------:|:--------:|:--------|:--------
-Rainbow | Rotating | Robot is booting up. Only the computers, router, and Estop are powered. Motor power may not be turned on until the bootup sequence is completed | picture  
+Rainbow | Rotating | Robot is booting up. Only the computers, router, and Estop are powered. Motor power may not be turned on until the bootup sequence is completed | [[images/Ring_LED/rainbow.gif]]   
 Red | Rotating | Robot is up but does not have communication with the computer | picture  
 White | Rotating | Robot has communication and is ready to turn on logic and motor power | picture  
 Green | Rotating | Logic power is on, motor power is off | picture  
