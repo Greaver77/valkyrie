@@ -304,3 +304,125 @@ The spawner uses the ros control architecture to load the controller named in th
 Well, thats it. All you need to do is rolaunch the launch file with the controller_spawner, and the simple controller will be loaded and run through the Valkyrie core software. Baring, of course, that the Valkyrie software is running (no software, no control). However, you may have noticed a few undesired traits of the simple example that will not work for more complex controller. Traits such as, being typecast to a single type of interface. Also, being constrained to the loop rate of the Valkyrie core software (which may be too fast for more complex control regimes). We will address some of these issues in the next.
 
 #More Advance Controllers
+
+From the previous controller, we see that the controllers we write are strongly typed. This is good as it lets the api determine the types of controllers being loaded. However, it can be annoying for writing a controller if you want to get more than one type of resource (say, for example, you want to read force sensors and output joint torques in one controller). Luckily there are workarounds, one of which we will cover here.
+
+To get multiple interfaces, we must first fully understand what is happening in the Controller class, the ControllerBase class which is extended by the Controller class, and how they interact with the hardware api. The api uses plugins to load the controllers using the ControllerBase class. A series of request functions then are used to call the virtual methods of starting, init, update, and stoping (called startRequest, initRequest, updateRequest, and stopRequest respectively).  Fortunately for us, we determine which interfaces to grab through the init (or initRequest) and the initRequest happens to be virtual in the ControllerBase class. So, lets rewrite the SimpleController header file that uses the initRequest instead of the init function:
+```bash
+#ifndef SIMPLE_CONTROLLER_HPP
+#define SIMPLE_CONTROLLER_HPP
+
+#include <hardware_interface/joint_command_interface.h>
+#include <hardware_interface/imu_sensor_interface.h>
+#include <hardware_interface/force_torque_sensor_interface.h>
+#include <controller_interface/controller.h>
+#include <pluginlib/class_list_macros.h>
+#include <ros/node_handle.h>
+
+namespace simple_controller
+{
+   class SimpleController : public controller_interface::Controller<hardware_interface::EffortJointInterface>
+   {
+   public:
+        SimpleController();
+        virtual ~SimpleController();
+
+        void starting(const rost::Time& time);
+        void update(const rost::Time& time, const rost::Duration& period);
+        void stopping(const ros::Time& time);
+   
+   protected:        
+        virtual bool initRequest(hardware_interface::RobotHw* robot_hw, 
+                         ros::NodeHandle& root_nh, ros::NodeHandle& controller_nh, 
+                         std::set<std::string>& claimed_resources) overide;
+
+   private:
+        std::map<std::string, hardware_interface::JointHandle> effortJointHandles;
+        std::map<std::string, hardware_interface::ImuSensorInterface> imuSensorHandles;
+        std::map<std::string, hardware_interface::ForceTorqueSensorInterface> forceTorqueHandles;
+        std::map<std::string,double> buffer_command_effort;
+        std::map<std::string, double> buffer_current_positions;
+        std::map<std::string, double> buffer_current_velocities;
+        std::map<std::string, double> buffer_current_efforts;
+   };
+}
+#endif
+```
+Notice that in addition to using the initRequest function (which is protected) we are adding two additional handles (imu and force torque sensors). So, how does the initRequest get the interfaces? Well lets look at the implementation of the function:
+```bash
+bool SimpleController::initRequest(hardware_interface::RobotHw* robot_hw, 
+                         ros::NodeHandle& root_nh, ros::NodeHandle& controller_nh, 
+                         std::set<std::string>& claimed_resources)
+{
+    // check if construction finished cleanly
+    if (state_ != CONSTRUCTED){
+      ROS_ERROR("Cannot initialize this controller because it failed to be constructed");
+      return false;
+    }
+
+    // get a pointer to the effort interface
+    hardware_interface::EffortJointInterface* effort_hw = robot_hw->get<hardware_interface::EffortJointInterface>();
+    if (!effort_hw)
+    {
+      ROS_ERROR("This controller requires a hardware interface of type hardware_interface::EffortJointInterface.");
+      return false;
+    }
+
+    // return which resources are claimed by this controller
+    effort_hw->clearClaims();
+    const std::vector<std::string>& effortNames = effort_hw.getNames();
+    for(unsigned int i=0; i<effortNames.size(); i++)
+    {
+         effortJointHandles[effortNames[i]] = effort_hw.getHandle(effortNames[i]);
+    }
+    
+    buffer_current_positions.resize(effortNames.size());
+    buffer_current_velocities.resize(effortNames.size());
+    buffer_current_efforts.resize(effortNames.size());
+
+    hardware_interface::InterfaceResources iface_res(hardware_interface::EffortJointInterface,          
+                                                     effort_hw->getClaims());
+    claimed_resources.assign(1, iface_res);
+    effort_hw->clearClaims();
+
+    // get a pointer to the imu interface
+    hardware_interface::ImuSensorInterface* imu_hw = robot_hw->get<hardware_interface::ImuSensorInterface>();
+    if (!imu_hw)
+    {
+      ROS_ERROR("This controller requires a hardware interface of type hardware_interface::ImuSensorInterface.");
+      return false;
+    }
+
+    // return which resources are claimed by this controller
+    imu_hw->clearClaims();
+    const std::vector<std::string>& imuNames = imu_hw.getNames();
+    for(unsigned int i=0; i<imuNames.size(); i++)
+    {
+         imuSensorHandles[imuNames[i]] = imu_hw.getHandle(imuNames[i]);
+    }
+
+    imu_hw->clearClaims();
+
+// get a pointer to the effort interface
+    hardware_interface::ForceTorqueSensorInterface* forceTorque_hw = robot_hw->get<hardware_interface::ForceTorqueSensorInterface>();
+    if (!forceTorque_hw)
+    {
+      ROS_ERROR("This controller requires a hardware interface of type hardware_interface::EffortJointInterface.");
+      return false;
+    }
+
+    // return which resources are claimed by this controller
+    forceTorque_hw->clearClaims();
+    const std::vector<std::string>& forceTorqueNames = forceTorque_hw.getNames();
+    for(unsigned int i=0; i<forceTorqueNames.size(); i++)
+    {
+         forceTorqueHandles[forceTorqueNames[i]] = forceTorque_hw.getHandle(forceTorqueNames[i]);
+    }
+
+    forceTorque_hw->clearClaims();
+
+    // success
+    state_ = INITIALIZED;
+    return true;
+}
+```

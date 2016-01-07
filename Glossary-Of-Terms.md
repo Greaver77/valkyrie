@@ -18,6 +18,7 @@
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Turbodriver.png" width="250">  
 
 **Vanguard** - Vanguard is a software suite used to empower operators to interact with remote systems (like robots) in a safe, managed way, over communication channels that would normally allow unsafe commanding.  Tasks ranging from editing files, to installing software, to starting and stopping the processes are accomplished through a well-defined communication interface.  Vanguard implements the Majordomo Protocol(https://github.com/zeromq/majordomo) with a collection of task-specific workers and accompanying clients.  The deployment of Vanguard components is flexible and can be custom tailored to meet the needs of simple "remote execution" systems as well as human-rated safety critical systems.
+
 **Zelda**-The non real-time computer. Zelda is located on the robots left.
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Zelda.png" width="250">
@@ -30,5 +31,6 @@
 
 **Secondary** - The Secondary is the removable core structure in the upper torso that consists of the PDBMTI, Link, Zelda and various Turbodrivers.  
 
-* Mass Sim
+**Mass Sim** - The Valkyrie robot platform was designed from the start with battery use in mind. The Mass Sim approximates the weight of a full battery, and offers some capacitance. The capacitance in the Mass Sim protects the robot from back EMF.  
+
 * Forearm Mass Sim
