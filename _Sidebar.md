@@ -15,7 +15,6 @@ __Valkyrie__
   * Operating Val
   * [Robonet](Robonet)
   * [Safety](Safety)
-  * Sensors
   * [Sensors](Sensors)
     * [[ATI Sensors|ATI-Sensors]]
     * [[IMU Sensors|IMU-Sensors]]
