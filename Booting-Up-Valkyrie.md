@@ -52,3 +52,12 @@ this will bring up a blank ui_builder window,
 from here you can add the 'mission_control' tab corresponding to your robot. On the ui_builder window, click file->add tab(s)(config file). It will open a file browser where you can navigate to and open the mission_control_val_X.uic that corresponds to your robot. If you are running unit C, then you will open the file 'mission_control_val_C.uic'. In your ui_builder window you should then see,
 
 [[images/MissionControl.png]]
+
+After opening the mission control GUI, the first thing you will want to do is click the "Be A Robot" button. This button does a number of things:
+
+1. Starts remote [shared memory transport](Shared Memory Transport)(SMT) processes on the robots computers that allow data from the robot to be accessed from remote machines
+2. Starts SMT processes on the local machine that look for remotes that are publishing shared memory 
+
+A few seconds after clicking the "Be A Robot" button, the status box labeled "Robot" on the top right should turn green.
+
+[[images/ClickBeARobot.png]]
