@@ -13,9 +13,10 @@ __Valkyrie__
   * Network
   * [Onboard Computers](Onboard-Computers)
   * Operating Val
-  * [Robonet](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Robonet)    
-  * [Safety](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Safety)
+  * [Robonet](Robonet)
+  * [Safety](Safety)
   * Sensors
+  * [Sensors](Sensors)
     * [[ATI Sensors|ATI-Sensors]]
     * [[IMU Sensors|IMU-Sensors]]
     * [Perception Sensors](Perception-Sensors)
