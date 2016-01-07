@@ -2,6 +2,8 @@
 
 **ER/ER4** - ER is the designated code for the Software, Robotics, and Simulation Division at NASA's Johnson Space Center.  ER4 is the code used for the Robotics Systems Technology Branch within the division.  
 
+**Forearm Mass Sim**
+
 **HAPI** - Hardware API  
 
 **JSC** - Johnson Space Center  
@@ -31,9 +33,6 @@
 
 **Vanguard** - Vanguard is a software suite used to empower operators to interact with remote systems (like robots) in a safe, managed way, over communication channels that would normally allow unsafe commanding.  Tasks ranging from editing files, to installing software, to starting and stopping the processes are accomplished through a well-defined communication interface.  Vanguard implements the Majordomo Protocol(https://github.com/zeromq/majordomo) with a collection of task-specific workers and accompanying clients.  The deployment of Vanguard components is flexible and can be custom tailored to meet the needs of simple "remote execution" systems as well as human-rated safety critical systems.
 
-* Forearm Mass Sim
-
 **Zelda**-The non real-time computer. Zelda is located on the robots left.
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Zelda.png" width="250">
-
