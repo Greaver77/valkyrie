@@ -1,5 +1,6 @@
 [[images/under_construction.png]]
 
-This page will go through the full process of turning on the robot and getting everything running so you may run your own ROS controller to move the robot. IF you are not familiar with the terms listed in the [glossary of terms](Glossary Of Terms) page
+This page will go through the full process of turning on the robot and getting everything running so you may run your own ROS controller to move the robot. You should first make sure you are familiar with the terms listed on the [glossary of terms](Glossary Of Terms) page, as this page will use a number of the terms listed there.
 
 **Power On Valkyrie**
+The first step in powering on the robot is to turn on the power sources. These are located in your juice box. To turn them on, flip the switches on both the low voltage and high voltage sources to on. Once the LED display reads "OFF"(should take a couple seconds) you can press the "OUT" button which will fully start the power source.
