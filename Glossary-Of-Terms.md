@@ -26,7 +26,7 @@
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Link.png" width="250">
 
-* Primary
+**Primary** - The primary is the core structure of the upper torso. The Primary houses a simple distribution board that connects each of the robots limbs to the Secondary.  
 * Secondary
 * Mass Sim
 * Forearm Mass Sim
