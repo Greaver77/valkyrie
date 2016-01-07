@@ -360,7 +360,7 @@ bool SimpleController::initRequest(hardware_interface::RobotHw* robot_hw,
       return false;
     }
 
-    // get a pointer to the hardware interface
+    // get a pointer to the effort interface
     hardware_interface::EffortJointInterface* effort_hw = robot_hw->get<hardware_interface::EffortJointInterface>();
     if (!effort_hw)
     {
@@ -370,11 +370,56 @@ bool SimpleController::initRequest(hardware_interface::RobotHw* robot_hw,
 
     // return which resources are claimed by this controller
     effort_hw->clearClaims();
+    const std::vector<std::string>& effortNames = effort_hw.getNames();
+    for(unsigned int i=0; i<effortNames.size(); i++)
+    {
+         effortJointHandles[effortNames[i]] = effort_hw.getHandle(effortNames[i]);
+    }
+    
+    buffer_current_positions.resize(effortNames.size());
+    buffer_current_velocities.resize(effortNames.size());
+    buffer_current_efforts.resize(effortNames.size());
 
-
-    hardware_interface::InterfaceResources iface_res(getHardwareInterfaceType(), hw->getClaims());
+    hardware_interface::InterfaceResources iface_res(hardware_interface::EffortJointInterface,          
+                                                     effort_hw->getClaims());
     claimed_resources.assign(1, iface_res);
-    hw->clearClaims();
+    effort_hw->clearClaims();
+
+    // get a pointer to the imu interface
+    hardware_interface::ImuSensorInterface* imu_hw = robot_hw->get<hardware_interface::ImuSensorInterface>();
+    if (!imu_hw)
+    {
+      ROS_ERROR("This controller requires a hardware interface of type hardware_interface::ImuSensorInterface.");
+      return false;
+    }
+
+    // return which resources are claimed by this controller
+    imu_hw->clearClaims();
+    const std::vector<std::string>& imuNames = imu_hw.getNames();
+    for(unsigned int i=0; i<imuNames.size(); i++)
+    {
+         imuSensorHandles[imuNames[i]] = imu_hw.getHandle(imuNames[i]);
+    }
+
+    imu_hw->clearClaims();
+
+// get a pointer to the effort interface
+    hardware_interface::ForceTorqueSensorInterface* forceTorque_hw = robot_hw->get<hardware_interface::ForceTorqueSensorInterface>();
+    if (!forceTorque_hw)
+    {
+      ROS_ERROR("This controller requires a hardware interface of type hardware_interface::EffortJointInterface.");
+      return false;
+    }
+
+    // return which resources are claimed by this controller
+    forceTorque_hw->clearClaims();
+    const std::vector<std::string>& forceTorqueNames = forceTorque_hw.getNames();
+    for(unsigned int i=0; i<forceTorqueNames.size(); i++)
+    {
+         forceTorqueHandles[forceTorqueNames[i]] = forceTorque_hw.getHandle(forceTorqueNames[i]);
+    }
+
+    forceTorque_hw->clearClaims();
 
     // success
     state_ = INITIALIZED;
