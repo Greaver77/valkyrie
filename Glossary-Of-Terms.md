@@ -30,5 +30,6 @@
 
 **Secondary** - The Secondary is the removable core structure in the upper torso that consists of the PDBMTI, Link, Zelda and various Turbodrivers.  
 
-* Mass Sim
+**Mass Sim** - The Valkyrie robot platform was designed from the start with battery use in mind. The Mass Sim approximates the weight of a full battery, and offers some capacitance. The capacitance in the Mass Sim protects the robot from back EMF.  
+
 * Forearm Mass Sim
