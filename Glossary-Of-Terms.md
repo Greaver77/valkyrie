@@ -18,12 +18,14 @@
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Turbodriver.png" width="250">  
 
 **Vanguard** - Vanguard is a software suite used to empower operators to interact with remote systems (like robots) in a safe, managed way, over communication channels that would normally allow unsafe commanding.  Tasks ranging from editing files, to installing software, to starting and stopping the processes are accomplished through a well-defined communication interface.  Vanguard implements the Majordomo Protocol(https://github.com/zeromq/majordomo) with a collection of task-specific workers and accompanying clients.  The deployment of Vanguard components is flexible and can be custom tailored to meet the needs of simple "remote execution" systems as well as human-rated safety critical systems.
-* Zelda-The non real-time computer. Zelda is located on the robots left.
+**Zelda**-The non real-time computer. Zelda is located on the robots left.
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Zelda.png" width="250">
+
 **Link** - The real-time computer. It is located on the robots right side.
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Link.png" width="250">
+
 * Primary
 * Secondary
 * Mass Sim
