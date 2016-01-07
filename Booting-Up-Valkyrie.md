@@ -12,6 +12,10 @@ Now that the power sources are running, you can now turn the robot on. Do this b
 
 [[images/RobotPowerButton.png]]
 
-The button will have a blue glow, and the light in Valkyrie's chest should beach ball,
+The button will have a blue glow, and the light in Valkyrie's chest should "beach ball",
 
 [[images/Ring_LED/rainbow.gif]]
+
+After "beach balling" for ~10 seconds, it should turn red,
+
+[[images/Ring_LED/no_comm.gif]] 
