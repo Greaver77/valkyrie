@@ -49,4 +49,6 @@ this will bring up a blank ui_builder window,
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/ui_builder.png" width="250">  
 
-from here you can add the 'mission_control' tab corresponding to your robot. On the ui_builder window, click file->add tab(s)(config file). It will open a file browser where you can navigate to and open the mission_control_val_X.uic that corresponds to your robot. If you are running unit C, then you will open the file 'mission_control_val_C.uic'.
+from here you can add the 'mission_control' tab corresponding to your robot. On the ui_builder window, click file->add tab(s)(config file). It will open a file browser where you can navigate to and open the mission_control_val_X.uic that corresponds to your robot. If you are running unit C, then you will open the file 'mission_control_val_C.uic'. In your ui_builder window you should then see,
+
+[[images/mission_control.ui]]
