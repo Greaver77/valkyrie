@@ -4,8 +4,6 @@
 
 Two concentric rings of LED lights are mounted in the center of Valkyrie's chest. Their color and actions are used to convey the status of the robot to the operator.   
 
-<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Ring_LED/rainbow.gif" width="500">  
-
 ###### Ring LED :
 Color | Action | Description | Picture
 :--------:|:--------:|:--------|:------------------------------------------
