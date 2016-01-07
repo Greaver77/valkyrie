@@ -26,7 +26,9 @@
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Link.png" width="250">
 
-**Primary** - The primary is the core structure of the upper torso. The Primary houses a simple distribution board that connects each of the robots limbs to the Secondary.  
-* Secondary
+**Primary** - The primary is the structure of the upper torso. The Primary houses a simple distribution board that connects each of the robots limbs to the Secondary.  
+
+**Secondary** - The Secondary is the removable core structure in the upper torso that consists of the PDBMTI, Link, Zelda and various Turbodrivers.  
+
 * Mass Sim
 * Forearm Mass Sim
