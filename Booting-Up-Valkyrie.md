@@ -11,3 +11,7 @@ The first step in powering on the robot is to turn on the power sources. These a
 Now that the power sources are running, you can now turn the robot on. Do this by pressing the button that is located behind the right shoulder of the robot as shown in the figure below.
 
 [[images/RobotPowerButton.png]]
+
+The button will have a blue glow, and the light in Valkyrie's chest should beach ball,
+
+[[images/Ring_LED/rainbow.gif]]
