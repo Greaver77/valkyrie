@@ -426,3 +426,4 @@ bool SimpleController::initRequest(hardware_interface::RobotHw* robot_hw,
     return true;
 }
 ```
+So, what is the important information from this code? The first thing that should be pointed out is the state_ variable. This variable tells the api what state the controller is in. Normally this is done in the background through the ControllerBase class, but since we are overwriting a function form that class we must take care of it here. The second thing we see is that there are many references to Claims (i.e. clearClaims and getClaims). The claims are because the resources, specifically the interfaces that let you send commands to the robot). 
