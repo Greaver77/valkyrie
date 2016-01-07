@@ -21,6 +21,9 @@
 * Zelda-The non real-time computer. Zelda is located on the robots left.
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Zelda.png" width="250">
+**Link** - The real-time computer. It is located on the robots right side.
+
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Link.png" width="250">
 * Primary
 * Secondary
 * Mass Sim
