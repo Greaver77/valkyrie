@@ -16,9 +16,9 @@ Create and init a catkin workspace
 
 Download the workspace file, the install helper, and import the code.  Be sure to enter each line separately.  You will be prompted for your Github password
 
-    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/public_https_full_workspace.yaml?ref=feature/github_workspace" > workspace.yaml
+    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/public_https_full_workspace.yaml?ref=develop" > workspace.yaml
 
-    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/workspace_checkout?ref=feature/github_workspace" > workspace_checkout
+    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/workspace_checkout?ref=develop" > workspace_checkout
 
     python workspace_checkout workspace.yaml
 
