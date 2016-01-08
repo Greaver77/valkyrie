@@ -15,6 +15,20 @@ You will first need to remove the soft goods surrounding the joint(s) you are ca
 
 [[images/robot_clothes.png]]
 
+The videos below show how to position each joint for calibration. Before calibrating any one joint, be sure to first check that moving the joint in the positive direction results in an increasing joint position value as reflected by the joint encoder. The joint position value for each joint is reflected on the calibration GUI,
+
+[[images/CalibrationGUI.png]]
+
+The general workflow while calibrating should look similar to the following:
+
+1. Choose any joint you wish to calibrate
+
+2. Verify moving the joint in the positive direction results in positive motion as reflected by the joint angle on the user interface. If it is backwards, click the 'Flip Joint Direction' button corresponding to the joint you are working with. Load coeffs(from the mission control GUI, see [this page](Booting Up Valkyrie) if you don't know what the mission control GUI is)
+
+3. Install the calibration fixture for the joint you are installing, or move the joint to it's hard stop if you are calibrating a joint that does not use a fixture. 
+
+4. Click the 'Calibrate Joint' button corresponding to the joint you are calibrating. 
+
 ## [Shoulder Pitch](https://www.youtube.com/watch?v=i_R_QV1J_CA)
 
 ## [Shoulder Roll](https://www.youtube.com/watch?v=QIns0CLNaQc)
