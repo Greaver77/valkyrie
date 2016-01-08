@@ -21,3 +21,6 @@ Download the workspace file, the install helper, and import the code.  Be sure t
     curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/workspace_checkout?ref=feature/github_workspace" > workspace_checkout
 
     python workspace_checkout workspace.yaml
+
+
+NOTE: One big downside to this approach is that the vcs-tool does not handle multiple repo authentication very well.
