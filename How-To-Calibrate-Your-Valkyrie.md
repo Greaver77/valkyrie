@@ -21,11 +21,15 @@ From here, the general workflow while calibrating should look similar to the fol
 
 1. Choose any joint you wish to calibrate
 
-2. Verify moving the joint in the positive direction results in positive motion as reflected by the joint angle on the user interface. If it is backwards, click the 'Flip Joint Direction' button corresponding to the joint you are working with. Load coeffs(from the mission control GUI, see [this page](Booting Up Valkyrie) if you don't know what the mission control GUI is)
+2. Verify moving the joint in the positive direction results in positive motion as reflected by the joint angle on the user interface. If it is backwards, click the 'Flip Joint Direction' button corresponding to the joint you are working with. 
 
-3. Install the calibration fixture for the joint you are installing, or move the joint to it's hard stop if you are calibrating a joint that does not use a fixture. 
+3. Load coeffs(from the mission control GUI, see [this page](Booting Up Valkyrie) if you don't know what the mission control GUI is)
 
-4. Click the 'Calibrate Joint' button corresponding to the joint you are calibrating. Load coeffs
+4. Install the calibration fixture for the joint you are installing, or move the joint to it's hard stop if you are calibrating a joint that does not use a fixture. 
+
+5. Click the 'Calibrate Joint' button corresponding to the joint you are calibrating. 
+
+6. Load Coeffs
 
 ## [Shoulder Pitch](https://www.youtube.com/watch?v=i_R_QV1J_CA)
 
