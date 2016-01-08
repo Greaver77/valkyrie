@@ -27,7 +27,7 @@ From here, the general workflow while calibrating should look similar to the fol
 
 3. Install the calibration fixture for the joint you are installing, or move the joint to it's hard stop if you are calibrating a joint that does not use a fixture. 
 
-4. Click the 'Calibrate Joint' button corresponding to the joint you are calibrating. 
+4. Click the 'Calibrate Joint' button corresponding to the joint you are calibrating. Load coeffs
 
 ## [Shoulder Pitch](https://www.youtube.com/watch?v=i_R_QV1J_CA)
 
