@@ -27,7 +27,7 @@
 
 **SMT** - Shared Memory Transport.  A mechanism used for inter-process communication.  See [here](Shared-Memory-Transport) for more information.
 
-**Turbodriver** - A Turbodriver is a single-axis embedded motor controller module developed at JSC. These are the motor controllers used to control most of the actuators on Valkyrie. These modules are distributed throughout the robot, generally near the motor for which a module controls. They are not very visible with the covers on.  Turbodrivers communicate to the main I/O computer (Link) over [Robonet](Robonet).  In turn, data from the Turbodrivers are exposed to the rest of the system using [SMT](Shared-Memory-Transport)
+**Turbodriver** - A Turbodriver is a single-axis embedded motor controller module developed at JSC. These are the motor controllers used to control most of the actuators on Valkyrie. These modules are distributed throughout the robot, generally near the motor for which a module controls. They are not very visible with the covers on.  Turbodrivers communicate to the main I/O computer (Link) over [Robonet](Robonet).  Data from the Turbodrivers are exposed to the rest of the system using [SMT](Shared-Memory-Transport)
 
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/Turbodriver.png" width="250">  
 
