@@ -1,8 +1,9 @@
 [[images/under_construction.png]]
 
 # Prerequisites
-* Before calibrating Valkyrie's joints you must have the [Valkyrie software](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
-* You must be using the source installation of val_description on the robot, otherwise the updated joint offsets will be lost the next time you update your debian install of val_description and you will need to redo the calibration process
+1. Before calibrating Valkyrie's joints you must have the [Valkyrie software](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
+2. You must be using the source installation of val_description on the robot, otherwise the updated joint offsets will be lost the next time you update your debian install of val_description and you will need to redo the calibration process
+3. You must have logic power on and the actuator coefficients loaded. See [this page](Booting Up Valkyrie) for instructions on how to do this.
 
 # Recommended Tools
 * M2-M6 hex drivers. This will cover pretty much all bolts on the robot
