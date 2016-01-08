@@ -25,7 +25,7 @@
 
 **Secondary** - The Secondary is the removable core structure in the upper torso that consists of the PDBMTI, Link, Zelda and various Turbodrivers.  
 
-**SMT** - Shared Memory Transport.  A mechanism used for inter-process communication.  See [here](Shared-Memory-Transport) for more information.
+**SMT** - [Shared Memory Transport](Shared-Memory-Transport).  A mechanism used for inter-process communication.  Valkyrie's primary usage is to expose low-level hardware data to the control system using SMT.
 
 **Turbodriver** - A Turbodriver is a single-axis embedded motor controller module developed at JSC. These are the motor controllers used to control most of the actuators on Valkyrie. These modules are distributed throughout the robot, generally near the motor for which a module controls. They are not very visible with the covers on.  Turbodrivers communicate to the main I/O computer (Link) over [Robonet](Robonet).  Data from the Turbodrivers are exposed to the rest of the system using [SMT](Shared-Memory-Transport)
 
