@@ -6,7 +6,7 @@
 
 **HAPI** - Hardware API  
 
-**JSC** - Johnson Space Center  
+**JSC** - [Johnson Space Center](http://www.nasa.gov/centers/johnson/home/index.html)
 
 **Juice Box** - This is our term for the box that holds the power sources. It also holds a network attached storage(NAS) device for storing log files as well as a wireless router.  
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/JuiceBox.png" width="250">  
