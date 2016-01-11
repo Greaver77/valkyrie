@@ -13,7 +13,7 @@ The purpose of the Shared Memory Transport (or SMT) is to solve the problem of s
 ## GUI Tools:
 * smtlogviewer - PyQt gui to display data contained in an HDF5 data file generated from smtlogger or smtrecorder
 * smtrecorder - PyQt gui to record smt data to an HDF5 data file
-* smtscope - PyQt gui to look at smt data in real-time
+* [smtscope](smtscope) - PyQt gui to look at smt data in real-time
 * smttopicviewer - PyQt gui tree display that shows all current smt topic names
 * shared_memory_transport_sliderboard - GUI that interfaces a Berringer BCF2000 Midi board to SMT topics
 
