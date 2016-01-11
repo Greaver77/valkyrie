@@ -1,13 +1,13 @@
 #smtscope
 
-*   [Overview](#smtscope-Overview)
-    *   [Starting smtscope](#smtscope-Startingsmtscope)
-*   [Detailed Description](#smtscope-DetailedDescription)
-    *   [Topic Selector](#smtscope-TopicSelector)
-    *   [Plot Area](#smtscope-PlotArea)
-        *   [Basic controls](#smtscope-Basiccontrols)
-    *   [Plot Options](#smtscope-PlotOptions)
-    *   [Value Table](#smtscope-ValueTable)
+*   [Overview](#overview)
+    *   [Starting smtscope](#starting-smtscope)
+*   [Detailed Description](#detailed-description)
+    *   [Topic Selector](#topic-selector)
+    *   [Plot Area](#plot-area)
+        *   [Basic controls](#basic-controls)
+    *   [Plot Options](#plot-options)
+    *   [Value Table](#value-table)
 
 # **Overview**
 
