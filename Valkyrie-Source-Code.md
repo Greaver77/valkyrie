@@ -1,5 +1,24 @@
 There are a few different ways to obtain the source code for Valkyrie, and some of the related tools.
 
+## Get code from Github, using ssh
+As a pre-requisite, you must have a registered ssh key with github.  You will also need vcstool.
+
+Install vcstool
+
+    sudo apt-get install python-vcstool
+
+Create and init a catkin workspace  
+
+    mkdir -p ~/val_github_ws/src && cd ~/val_github_ws/src
+    catkin_init_workspace
+
+Download the workspace file and import the code using vcs-tool.  Be sure to enter each line separately.  You will be prompted for your Github password.
+
+    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/public_full_workspace.yaml?ref=develop" > workspace.yaml
+
+    vcs import --input workspace.yaml
+
+
 ## Get code from Github, using HTTPS
 When on-site at JSC, you cannot access Github via ssh.  Instead, you need to use `https://`
 
