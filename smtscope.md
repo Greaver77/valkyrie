@@ -1,5 +1,3 @@
-#smtscope - Plot live data available through Shared Memory Transport
-
 *   [Overview](#overview)
     *   [Starting smtscope](#starting-smtscope)
 *   [Detailed Description](#detailed-description)
@@ -11,7 +9,7 @@
 
 # **Overview**
 
-**smtscope** is a GUI for plotting live smt data.
+**smtscope** is a GUI for plotting live data available through the [Shared Memory Transport](Shared-Memory-Transport)
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/smtscope.png">
 
 ## Starting smtscope
