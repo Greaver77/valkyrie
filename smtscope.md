@@ -1,4 +1,4 @@
-#smtscope
+#smtscope - Plot live data available through Shared Memory Transport
 
 *   [Overview](#overview)
     *   [Starting smtscope](#starting-smtscope)
