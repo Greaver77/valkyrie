@@ -1,16 +1,19 @@
 There are a few different ways to obtain the source code for Valkyrie, and some of the related tools.
 
 ## Get code from Github, using ssh
-As a pre-requisite, you must have a registered ssh key with github.  Check [here](https://help.github.com/articles/generating-ssh-keys/) for help setting that up.  You will also need [vcstool](https://github.com/dirk-thomas/vcstool).
+###Pre-requisites:
+You must have a registered ssh key with github.  Check [here](https://help.github.com/articles/generating-ssh-keys/) for help setting that up.  If this is your first time using an ssh-key with github, make to do [Step 5: Test the Connection](https://help.github.com/articles/generating-ssh-keys/#step-5-test-the-connection).  Otherwise, vcstool might fail when trying to import the code.
 
+You will also need [vcstool](https://github.com/dirk-thomas/vcstool).  To install, 
+
+    sudo apt-get install python-vcstool
+
+### Setup
 Open a terminal and set your Github username as an environment variable.  It will make the rest of the instructions easier.
 
     export GITHUB_USER=<user>
 
-NOTE: replace `<user>` with your Github user name.
-Install vcstool
-
-    sudo apt-get install python-vcstool
+**NOTE:** _replace `<user>` with your Github user name._
 
 Create and init a catkin workspace  
 
@@ -31,7 +34,7 @@ Open a terminal and set your Github username as an environment variable.  It wil
 
     export GITHUB_USER=<user>
 
-NOTE: replace `<user>` with your Github user name.
+**NOTE**: _replace `<user>` with your Github user name._
 
 Create and init a catkin workspace  
 
@@ -47,4 +50,4 @@ Download the workspace file, the install helper, and import the code.  Be sure t
     python workspace_checkout workspace.yaml
 
 
-NOTE: One big downside to this approach is that the vcs-tool does not handle multiple repo authentication very well.
+**NOTE**: _One big downside to this approach is that the vcstool does not handle multiple repo authentication very well.  Subsequent calls like `vcs pull` causes a bit of a mess on the console._
