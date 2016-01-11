@@ -12,7 +12,7 @@ NOTE: replace `<user>` with your Github user name.  You will be prompt to enter 
 Create and init a catkin workspace  
 
     mkdir -p ~/val_github_ws/src && cd ~/val_github_ws/src
-    catkin_init_workspace`
+    catkin_init_workspace
 
 Download the workspace file, the install helper, and import the code.  Be sure to enter each line separately.  You will be prompted for your Github password
 
