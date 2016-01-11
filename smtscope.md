@@ -14,8 +14,6 @@
 **smtscope** is a GUI for plotting line smt data.
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/smtscope.png">
 
-[top](#smtscope)
-
 ## Starting smtscope
 
     smtscope
@@ -23,6 +21,8 @@
     rosrun shared_memory_transport_qt smtscope
 
 NOTE: There are no command line arguments, and no 'help'.
+
+--[back to top](#smtscope)--
 
 # Detailed Description
 
@@ -55,3 +55,5 @@ The check boxes below the plots modify how the views will update.  
 ## Value Table
 
 The value table provides the value of all the topics that are being plotted.  When **Show Crosshairs** is selected, the value will be at the point in time of the crosshairs, otherwise the most current value is displayed.
+
+--[back to top](#smtscope)--
