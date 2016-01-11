@@ -1,8 +1,13 @@
 There are a few different ways to obtain the source code for Valkyrie, and some of the related tools.
 
 ## Get code from Github, using ssh
-As a pre-requisite, you must have a registered ssh key with github.  You will also need vcstool.
+As a pre-requisite, you must have a registered ssh key with github.  Check [here](https://help.github.com/articles/generating-ssh-keys/) for help setting that up.  You will also need [vcstool](https://github.com/dirk-thomas/vcstool).
 
+Open a terminal and set your Github username as an environment variable.  It will make the rest of the instructions easier.
+
+    export GITHUB_USER=<user>
+
+NOTE: replace `<user>` with your Github user name.
 Install vcstool
 
     sudo apt-get install python-vcstool
@@ -26,7 +31,7 @@ Open a terminal and set your Github username as an environment variable.  It wil
 
     export GITHUB_USER=<user>
 
-NOTE: replace `<user>` with your Github user name.  You will be prompt to enter your Github password.
+NOTE: replace `<user>` with your Github user name.
 
 Create and init a catkin workspace  
 
