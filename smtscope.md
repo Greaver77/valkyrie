@@ -11,7 +11,7 @@
 
 # **Overview**
 
-**smtscope** is a GUI for plotting line smt data.
+**smtscope** is a GUI for plotting live smt data.
 <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/smtscope.png">
 
 ## Starting smtscope
