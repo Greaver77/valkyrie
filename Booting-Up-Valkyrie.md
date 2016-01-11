@@ -61,3 +61,7 @@ After opening the mission control GUI, the first thing you will want to do is cl
 A few seconds after clicking the "Be A Robot" button, the status box labeled "Robot" on the top right should turn green.
 
 [[images/ClickBeARobot.png]]
+
+The next step is to start the controller manager. This is done by clicking the 'Controller Manager : Start' button. After a few seconds, the status button on the top right should turn green, indicating the controller manager is up and running,
+
+[[images/ClickControllerManagerStart.png]]
