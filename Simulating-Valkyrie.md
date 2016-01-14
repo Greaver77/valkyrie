@@ -1,5 +1,7 @@
 [[images/under_construction.png]]  
 
+# (1-14-2016) - The instructions below will likely be changing frequently as we work to stabilize the Valkyrie sim. If you are interested in using the Gazebo sim for Valkyrie, we advise you to have all Valkyrie repositories on the develop branch and fully up-to-date. 
+
 # Prerequisites
 To follow these instructions, you must first have the following:
 * Working installation of Simulation Construction Set(SCS [LINK LINK LINK])(Optional of you want to roll your own walking controller)
