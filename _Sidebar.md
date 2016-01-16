@@ -25,4 +25,4 @@ __Valkyrie__
 * How-to
   * [How-To Calibrate Valkyrie's Joints](How To Calibrate Your Valkyrie)
   * [How-To Boot Up Valkyrie](Booting Up Valkyrie)
-  * [Running Controllers on Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Running-Controllers-on-Valkyrie)
+  * [How-To Write A Controller For Valkyrie](How-To Write A Controller For Valkyrie)
