@@ -58,9 +58,14 @@ Install ROS Desktop:
 ***
 
 ### Install NASA Debians
-THIS IS HARD
-nasa-indigo-workspace (optional but nice)
-nasas-val-system-config (Suuuuuper needed)
+
+Download the following Debians:
+[nasa-indigo-workspace](https://drive.google.com/file/d/0B4Esozi1aH0sZFJPSTVFNy1OM1k/view?usp=sharing)
+[nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sMk15TThrVlZYRVk/view?usp=sharing)
+
+Install those Debians with the following commands:
+
+    sudo dpkg -i nasa-indigo-workspace nasa-val-system-config
 
 ***
 
