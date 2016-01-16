@@ -51,3 +51,12 @@ Download the workspace file, the install helper, and import the code.  Be sure t
 
 
 **NOTE**: _One big downside to this approach is that the vcstool does not handle multiple repo authentication very well.  Subsequent calls like `vcs pull` causes a bit of a mess on the console._
+
+*** 
+
+### Final Steps
+Run the following line to ensure all dependencies have been resolved.
+
+    cd ~/val_indigo
+    vcs custom --args checkout develop
+    rosdep install --from-paths src -i -y
