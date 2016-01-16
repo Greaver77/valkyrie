@@ -102,3 +102,8 @@ Add the following to the bottom of your ~/.bashrc file:
 Finally, source your ~/.bashrc file:
 
     source ~/.bashrc
+
+***
+
+Please proceed to the second part:
+[Checking out Valkyrie source code](Valkyrie-Source-Code)
