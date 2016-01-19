@@ -8,15 +8,10 @@ __Useful Links__
 
 __Valkyrie__
 * Hardware
-  * Juice Box Setup
-  * Logging Setup
-  * Network
   * [Onboard Computers](Onboard-Computers)
-  * Operating Val
   * [Robonet](Robonet)
   * [Safety](Safety)
   * [Sensors](Sensors)
-  * Turbodrivers
   * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
 * Software
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
