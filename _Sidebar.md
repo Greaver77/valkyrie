@@ -12,6 +12,7 @@ __Valkyrie__
   * [Robonet](Robonet)
   * [Safety](Safety)
   * [Sensors](Sensors)
+  * Forearms/Hands
   * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
 * Software
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
