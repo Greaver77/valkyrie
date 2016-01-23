@@ -68,3 +68,5 @@ The next step is to start the controller manager. This is done by clicking the '
 
 **Note that starting the controller manager also starts a mode controller. This is important because if you do not have the controller manager running, any actions that use the mode controller, such as clearing faults or resetting actuator estops, will fail because they rely on the mode controller.**
 
+After starting the controller manager, you can turn on logic power. Logic power is the low voltage(12 volt) BUS that provides power to the various circuit boards and motor controllers for the joints.
+
