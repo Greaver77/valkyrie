@@ -43,7 +43,7 @@ From here, the general workflow while calibrating should look similar to the fol
 
 ## [Neck Yaw](https://youtu.be/Kh7yX1gp57s)
 
-## [Upper Neck Pitch](https://youtu.be/NR9_ybWFIeg)
+## [Upper Neck Pitch](https://www.youtube.com/watch?v=7lFraUiKlNY&feature=youtu.be)
 
 ## [Knee Pitch](https://youtu.be/ejU2QimhXzI)
 
