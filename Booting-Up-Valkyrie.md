@@ -7,6 +7,8 @@ This page will go through the full process of turning on the robot and getting e
 
 2. You know your robot's IP address. This documentation will refer to your robots IP addresses as 'Link-IP' for the IP address of the Link computer and 'Zelda-IP' for the IP address of the Zelda computer.
 
+For any issues that may arise that are not addressed here, please see the [trouble shooting page](Trouble Shooting)
+
 ##Power On Valkyrie##
 
 The first step in powering on the robot is to turn on the power sources. These are located in your juice box. To turn them on, flip the switches on both the low voltage and high voltage sources to on. Once the LED display reads "OFF"(should take a couple seconds) you can press the "OUT" button which will fully start the power source. The image below shows the buttons you will need to press.
@@ -68,5 +70,7 @@ The next step is to start the controller manager. This is done by clicking the '
 
 **Note that starting the controller manager also starts a mode controller. This is important because if you do not have the controller manager running, any actions that use the mode controller, such as clearing faults or resetting actuator estops, will fail because they rely on the mode controller.**
 
-After starting the controller manager, you can turn on logic power. Logic power is the low voltage(12 volt) BUS that provides power to the various circuit boards and motor controllers for the joints.
+After starting the controller manager, you can turn on logic power by clicking the 'Logic Power: On' button. Logic power is the low voltage(12 volt) BUS that provides power to the various circuit boards and motor controllers for the joints.
+
+After clicking this button, a number of things will take place in addition to turning on logic power. It will also attempt to clear all actuator faults and 'Park' the actuators, which is a term we use for referring to a state where the actuators are safe and unable to commutate.
 
