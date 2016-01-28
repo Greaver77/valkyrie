@@ -5,6 +5,7 @@ __Useful Links__
 * [How To Make Github Wikis](How-To-Make-Wikis)
 * [[Glossary Of Terms|Glossary-Of-Terms]]
 * [[Contact Us|Contact-Us]]
+* [Trouble Shooting](Trouble Shooting)
 
 __Valkyrie__
 * Hardware
@@ -18,7 +19,6 @@ __Valkyrie__
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
   * [Shared Memory Transport](Shared-Memory-Transport)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
-  * [Trouble Shooting](Trouble Shooting)
 * How-to
   * [How-To Calibrate Valkyrie's Joints](How To Calibrate Your Valkyrie)
   * [How-To Boot Up Valkyrie](Booting Up Valkyrie)
