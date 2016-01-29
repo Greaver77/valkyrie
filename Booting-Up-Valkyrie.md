@@ -72,7 +72,7 @@ The next step is to start the controller manager. This is done by clicking the '
 
 After starting the controller manager, you can turn on logic power by clicking the 'Logic Power: On' button. 
 
-ADD LOGIC POWER ON GUI
+[[images/ClickLogicPowerOn.png]]
 
 This will also turn the light in the center of the chest green and should look something like,
 
@@ -82,7 +82,11 @@ Logic power is the low voltage(12 volt) BUS that provides power to the various c
 
 You should get log messages in the log window an the bottom of the UI that let you know the status of actuator coeff loading and various other processes, but visually you can check that the actuators are alive by opening up the status user interfaces(ADD LINK TO UI's). In the 'robot_status' UI you will see each joint's position, velocity, effort, temperature, etc. If the actuator coeffs fail to load or logic power is not on, then you will not see actuator/joint data.
 
-With logic power on, the things left to do before moving the robot is to turn on high voltage(we refer to this as motor power). Simply click the "Motor Power: On" button and, assuming the e-stop is not pressed and the high voltage power supply is on, the light in the chest should turn purple,
+With logic power on, the only things left to do before moving the robot is to turn on high voltage(we refer to this as motor power) and to servo the actuators. Simply click the "Motor Power: On" button,
+
+[[images/ClickMotorPowerOn.png]]
+
+Assuming the e-stop is not pressed and the high voltage power supply is on, the light in the chest should turn purple,
 
 [[images/Ring_LED/purple.gif]]
 
@@ -90,6 +94,6 @@ While the chest light is purple the power system is charging capacitors(caps), a
 
 [[images/Ring_LED/royal_blue.gif]]
 
-**Be extra careful when approaching the robot when the chest light is blue. When the light is blue, there MUST designated person holding the e-stop. Furthermore, the person holding the e-stop is not to step inside the robots workspace.**
+**Be extra careful when approaching the robot when the chest light is blue. When the light is blue, there MUST be designated person holding the e-stop. Furthermore, the person holding the e-stop is not to step inside the robots workspace.**
 
 Once motor power is on, the robot is servoable. You can servo the robot via the mission control UI by clicking the servo buttons for either individual limbs or for the entire robot, or by using the mode controller. It is not advisable that you servo the robot without a controller running that will control the robots configuration. Without first running a controller, servoing the actuators will put them in zero force mode which can damage the robot some of the actuators may run away.
