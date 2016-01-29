@@ -30,8 +30,9 @@ Optional, but recommended.
 Configure your users and groups with the following:
 
     sudo groupadd ros
-    sudo usermod -aG ros $USER
     sudo adduser vanguard
+    sudo usermod -aG ros $USER
+    sudo usermod -aG dialout $USER
     sudo usermod -aG sudo vanguard
     sudo usermod -aG ros vanguard
 
