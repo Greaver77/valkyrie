@@ -8,7 +8,7 @@ When running Valkyrie there will undoubtedly be times where you find yourself in
 
 ### While running the robot, logic power turned off
 
-### While running the robot, 1 or both computers crashed and logic power turned off
+### While running the robot, one or both computers crashed and logic power turned off
 
 ### Clicking UI buttons results in a bunch of "Request Timed Out" error messages in the UI log window
 
