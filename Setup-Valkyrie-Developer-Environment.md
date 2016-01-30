@@ -12,8 +12,8 @@ Run the following lines:
     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
     sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xB01FA116
  
-    sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-latest.list'
-    sudo wget -O - http://packages.osrfoundation.org/gazebo.key | sudo apt-key add -
+    sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+    sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
 
 Update your apt sources.  
 
