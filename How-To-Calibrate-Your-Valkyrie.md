@@ -51,4 +51,4 @@ From here, the general workflow while calibrating should look similar to the fol
 
 ## [Hips](https://youtu.be/FPSuRZxlhFw)
 
-## Waist
+## [Waist](https://www.youtube.com/watch?v=mTMlzIQrnAw&feature=youtu.be)
