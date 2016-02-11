@@ -63,6 +63,10 @@ A few seconds after clicking the "Be A Robot" button, the status box labeled "Ro
 
 [[images/ClickBeARobot.png]]
 
+You should also see the light on Valkyrie's chest turn red,
+
+[[images/Ring_LED/no_comm.gif]] 
+
 The next step is to start the controller manager. This is done by clicking the 'Controller Manager : Start' button. After a few seconds, the status button on the top right should turn green, indicating the controller manager is up and running,
 
 [[images/ClickControllerManagerStart.png]]
