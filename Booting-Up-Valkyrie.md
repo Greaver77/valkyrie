@@ -63,7 +63,7 @@ A few seconds after clicking the "Be A Robot" button, the status box labeled "Ro
 
 [[images/ClickBeARobot.png]]
 
-You should also see the light on Valkyrie's chest turn red,
+You should also see the light on Valkyrie's chest turn white,
 
 [[images/Ring_LED/idle.gif]]
 
