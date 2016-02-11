@@ -19,15 +19,11 @@ Now that the power sources are running, you can now turn the robot on. Do this b
 
 [[images/RobotPowerButton.png]]
 
-The button will have a blue glow, and the light in Valkyrie's chest should "beach ball",
+The button will have a blue glow, and the light in Valkyrie's chest should start to "beach ball",
 
 [[images/Ring_LED/rainbow.gif]]
 
-After "beach balling" for ~10 seconds, it should turn red,
-
-[[images/Ring_LED/no_comm.gif]] 
-
-Once the light is spinning red, you are ready to get going on the computers. On your operator computers, if you aren't sure if your catkin workspace is built, go ahead and do that,
+Once the light is "beach balling", you are ready to get going on the computers. On your operator computers, if you aren't sure if your catkin workspace is built, go ahead and do that,
 
 ```bash
 cd ~/val_indigo 
@@ -59,6 +55,9 @@ After opening the mission control GUI, the first thing you will want to do is cl
 
 1. Starts remote [shared memory transport](Shared Memory Transport)(SMT) processes on the robots computers that allow data from the robot to be accessed from remote machines
 2. Starts SMT processes on the local machine that look for remotes that are publishing shared memory 
+3. Checks if the PDBMTI(a.k.a the power distribution board) has firmware, if not it will flash firmware to the PDBMTI. If it is already loaded it will simply move on. 
+
+**NOTE**: PDBMTI firmware is only flashed one time once the robot is turned on. It will not be done again until the robot is turned completely off.
 
 A few seconds after clicking the "Be A Robot" button, the status box labeled "Robot" on the top right should turn green.
 
