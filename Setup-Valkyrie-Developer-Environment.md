@@ -29,12 +29,15 @@ Optional, but recommended.
 
 Configure your users and groups with the following:
 
+
     sudo groupadd ros
+    sudo groupadd pgrimaging
     sudo adduser vanguard
-    sudo usermod -aG ros $USER
-    sudo usermod -aG dialout $USER
-    sudo usermod -aG sudo vanguard
-    sudo usermod -aG ros vanguard
+    sudo usermod -a -G ros $USER
+    sudo usermod -a -G dialout $USER
+    sudo usermod -a -G pgrimaging $USER
+    sudo usermod -a -G sudo vanguard
+    sudo usermod -a -G ros vanguard
 
 ***
 
