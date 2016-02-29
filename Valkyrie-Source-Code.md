@@ -17,7 +17,7 @@ Open a terminal and set your Github username as an environment variable.  It wil
 
 Create and init a catkin workspace  
 
-    mkdir -p ~/val_github_ws/src && cd ~/val_github_ws/src
+    mkdir -p ~/val_indigo/src && cd ~/val_indigo/src
     catkin_init_workspace
 
 Download the workspace file and import the code using vcs-tool.  Be sure to enter each line separately.  You will be prompted for your Github password.
