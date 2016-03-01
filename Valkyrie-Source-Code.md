@@ -20,9 +20,13 @@ Download the workspace repository to the home directory:
 ***
 
 ### Download Code
+Robot Workspace:
 
-    vcs import --input ~/val_workspaces/public_full_workspace.yaml ~/val_indigo/src/
+    vcs import --input ~/val_workspaces/public_robot_workspace.yaml ~/val_indigo/src/
 
+Developer/Visualizer Workspace:
+
+    vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/
 
 *** 
 
