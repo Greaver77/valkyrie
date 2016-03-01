@@ -35,7 +35,8 @@ Run the following line to ensure all dependencies have been resolved.
 
 ***
 ### Troubleshooting
-Getting authentication errors? Try the following:
+Getting authentication errors? Try the following:  
+
     ssh -T git@github.com
 
 If that didn't come back successful, check the docs: 
