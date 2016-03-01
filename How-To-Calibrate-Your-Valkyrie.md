@@ -10,7 +10,7 @@
 
 # Calibrating Valkyrie's Joints
 You will first need to remove the soft goods surrounding the joint(s) you are calibrating.
-*Put back soft goods after you are done calibrating each joint.  It's easy to lose bolts or damage soft goods if you don't put things back when you are done with them.*
+**Put back soft goods after you are done calibrating each joint.  It's easy to lose bolts or damage soft goods if you don't put things back when you are done with them.**
 
 [[images/robot_clothes.png]]
 
