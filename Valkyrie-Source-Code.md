@@ -1,56 +1,28 @@
-There are a few different ways to obtain the source code for Valkyrie, and some of the related tools.
+## Pre-requisites:
+SSH keys - Ensure you have a ssh key with [github](https://help.github.com/articles/generating-ssh-keys/)  
 
-## Get code from Github, using ssh
-###Pre-requisites:
-You must have a registered ssh key with github.  Check [here](https://help.github.com/articles/generating-ssh-keys/) for help setting that up.  If this is your first time using an ssh-key with github, make to do [Step 5: Test the Connection](https://help.github.com/articles/generating-ssh-keys/#step-5-test-the-connection).  Otherwise, vcstool might fail when trying to import the code.
-
-You will also need [vcstool](https://github.com/dirk-thomas/vcstool).  To install, 
+You will need [vcstool](https://github.com/dirk-thomas/vcstool).  To install: 
 
     sudo apt-get install python-vcstool
 
+***
+
 ### Setup
-Open a terminal and set your Github username as an environment variable.  It will make the rest of the instructions easier.
-
-    export GITHUB_USER=<user>
-
-**NOTE:** _replace `<user>` with your Github user name._
-
-Create and init a catkin workspace  
+Create and init a catkin workspace:  
 
     mkdir -p ~/val_indigo/src && cd ~/val_indigo/src
     catkin_init_workspace
+  
+Download the workspace repository to the home directory:  
 
-Download the workspace file and import the code using vcs-tool.  Be sure to enter each line separately.  You will be prompted for your Github password.
+    git clone -b develop git@github.com:NASA-JSC-Robotics/val_workspaces.git ~/val_workspaces
 
-    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/public_full_workspace.yaml?ref=develop" > workspace.yaml
+***
 
-    vcs import --input workspace.yaml
+### Download Code
 
+    vcs import --input ~/val_workspaces/public_full_workspace.yaml ~/val_indigo/src/
 
-## Get code from Github, using HTTPS
-When on-site at JSC, you cannot access Github via ssh.  Instead, you need to use `https://`
-
-Open a terminal and set your Github username as an environment variable.  It will make the rest of the instructions easier.
-
-    export GITHUB_USER=<user>
-
-**NOTE**: _replace `<user>` with your Github user name._
-
-Create and init a catkin workspace  
-
-    mkdir -p ~/val_indigo/src && cd ~/val_indigo/src
-    catkin_init_workspace
-
-Download the workspace file, the install helper, and import the code.  Be sure to enter each line separately.  You will be prompted for your Github password
-
-    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/public_https_full_workspace.yaml?ref=develop" > workspace.yaml
-
-    curl -u $GITHUB_USER -H "Accept: application/vnd.github.raw" "https://api.github.com/repos/NASA-JSC-Robotics/val_workspaces/contents/workspace_checkout?ref=develop" > workspace_checkout
-
-    python workspace_checkout workspace.yaml
-
-
-**NOTE**: _One big downside to this approach is that the vcstool does not handle multiple repo authentication very well.  Subsequent calls like `vcs pull` causes a bit of a mess on the console._
 
 *** 
 
@@ -60,3 +32,11 @@ Run the following line to ensure all dependencies have been resolved.
     cd ~/val_indigo
     vcs custom --args checkout develop
     rosdep install --from-paths src -i -y
+
+***
+### Troubleshooting
+Getting authentication errors? Try the following:
+    ssh -T git@github.com
+
+If that didn't come back successful, check the docs: 
+[Test the Connection](https://help.github.com/articles/generating-ssh-keys/#step-5-test-the-connection).
