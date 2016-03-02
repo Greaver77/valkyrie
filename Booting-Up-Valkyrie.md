@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 This page will go through the full process of turning on the robot and getting everything running so you may run your own ROS controller to move the robot. You should first make sure you are familiar with the terms listed on the [glossary of terms](Glossary Of Terms) page, as this page will use a number of the terms listed there.
 
 ##Assumptions##
