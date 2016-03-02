@@ -57,3 +57,6 @@ Step | Filepath | Notes | Variables Set
 11 | ~/.bash_nasa_val.d/01_bash_ros - Part 2 | Sets VAL_WORKSPACE. Sets workspace hierarchy for val_indigo and prepends ROS_PACKAGE_PATH | VAL_WORKSPACE=~/val_indigo ROS_PACKAGE_PATH=/home/<user>/val_indigo/install/share:/home/<user>/val_indigo/install/stacks:$ROS_PACKAGE_PATH |
 12 | ~/.bash_nasa_val.d/02_controller | Sets CONTROLLER_WORKSPACE. Sets workspace hierarchy for controller_ws and prepends ROS_PACKAGE_PATH | CONTROLLER_WORKSPACE=~/controller_ws ROS_PACKAGE_PATH=/home/<user>/controller_ws/install/share:/home/<user>/controller_ws/install/stacks:$ROS_PACKAGE_PATH |
 13 | ~/.bash_nasa_val.d/10_bash_nasa_val_aliases | Sets helpful alias values |
+
+## Add custom environment settings
+If you have custom environment things to set, please create a new file in the ~/.bash_nasa_val.d/ directory. Ensure the filename starts with a number higher then 03. 
