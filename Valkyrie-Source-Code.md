@@ -20,15 +20,21 @@ Download the workspace repository to the home directory:
 ***
 
 ### Download Code
-Robot Workspace:
+Choose from one of the three workspaces below:  
+
+Robot Workspace:  
 
     vcs import --input ~/val_workspaces/public_robot_workspace.yaml ~/val_indigo/src/
 
-Developer/Visualizer Workspace:
+Developer/Visualizer Workspace:  
 
     vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/
 
-Source your completed environment.
+Testbed/Build Machine Workspace:  
+
+    vcs import --input ~/val_workspaces/public_full_workspace.yaml ~/val_indigo/src/
+
+Source your completed environment.  
 
     source ~/.bashrc
 
