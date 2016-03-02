@@ -28,6 +28,8 @@ From here, the general workflow while calibrating should look similar to the fol
 
 4. Click the 'Calibrate Joint' button corresponding to the joint you are calibrating. Hitting this button will kick off a few processes that, after they finish, should result in the joint's position value being updated to the calibrated value. Note that the calibrated value is not necessarily zero.
 
+5. After calibrating your robot, make sure you put in a pull request to the [val_description](https://github.com/NASA-JSC-Robotics/val_description) repo, otherwise your changes will likely get wiped away!
+
 ## [Shoulder Pitch](https://www.youtube.com/watch?v=i_R_QV1J_CA)
 
 ## [Shoulder Roll](https://www.youtube.com/watch?v=QIns0CLNaQc)
