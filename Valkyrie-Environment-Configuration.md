@@ -42,12 +42,6 @@ While it is our goal to eventually have a generic robot discovery system, our cu
 ## Environment Files
 The table listed below walks you through, in order, what files live where, what order they are sourced in, and any environment variables set.  
 
-Header | Other Header | other other header
-:--------:|--------:|:--------|--------
-centered | right aligned | left aligned | Regular
-Cell Stuff 1b | *Cell* Stuff 2b | stuff | align
-
-
 Step | Filepath | Notes | Variables Set
 :--------:|:--------|:--------|:--------
 1 | ~/.bashrc | Sources ~/.bash_nasa_val | 
