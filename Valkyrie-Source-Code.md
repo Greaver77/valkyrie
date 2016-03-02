@@ -28,6 +28,10 @@ Developer/Visualizer Workspace:
 
     vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/
 
+Source your completed environment.
+
+    source ~/.bashrc
+
 *** 
 
 ### Final Steps
