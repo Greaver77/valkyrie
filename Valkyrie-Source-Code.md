@@ -41,6 +41,10 @@ Run the following line to ensure all dependencies have been resolved.
     vcs custom --args checkout develop
     rosdep install --from-paths src -i -y
 
+Move the Vanguard init file.  
+
+    sudo cp ~/val_indigo/src/val_vanguard_config/upstart/val-vanguard.conf /etc/init/val-vanguard.conf
+
 ***
 ### Troubleshooting
 Getting authentication errors? Try the following:  
