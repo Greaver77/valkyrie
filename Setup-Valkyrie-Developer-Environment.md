@@ -69,7 +69,7 @@ Download the following Debians:
 
 Install those Debians with the following commands:
 
-    sudo dpkg -i nasa-indigo-workspace nasa-val-system-config
+    sudo dpkg -i nasa-indigo-workspace*.deb nasa-val-system-config*.deb
 
 ***
 
