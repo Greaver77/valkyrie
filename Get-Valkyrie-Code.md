@@ -23,3 +23,7 @@ The second way to get our code, more appropriate for unstable features or live e
 [Setup the third party workspace](Thirdparty-Workspace)
 
 ***
+
+Select the appropriate Visualizer Debian package from below:
+
+[UoE Vis04](https://drive.google.com/open?id=0B4Esozi1aH0sZmdOY0dKanlfbzQ)
