@@ -11,7 +11,7 @@ Our configuration is heavily dependent on ROS. ROS handles the bulk of its confi
 ##### Back to our regularly scheduled program  
 The four major parts of our environment path are as follows.  
 
-<PICTURE HERE>
+[[images/ValRosPackagePath.png]]
 
     /opt/ros/indigo - The location of the workspace for installed ROS (Indigo) Debian packages.
     /opt/nasa/indigo - The location of the workspace for installed NASA ROS (Indigo) Debian packages.
