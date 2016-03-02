@@ -16,11 +16,7 @@ The second way to get our code, more appropriate for unstable features or live e
 
 ***
 
-[Installing Valkyrie Debians](Valkyrie-Debians)
-
-***
-
-[Checking out Valkyrie source code](Valkyrie-Source-Code)
+[Installing Valkyrie Debians](Valkyrie-Debians) or [Checking out Valkyrie source code](Valkyrie-Source-Code)
 
 ***
 
