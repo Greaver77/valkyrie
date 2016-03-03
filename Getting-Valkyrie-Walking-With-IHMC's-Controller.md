@@ -46,3 +46,7 @@ and you should now have a new directory at ~/valkyrie(/home/user/valkyrie) which
 Once the controller has been successfully deployed, you will be able to start it from the mission control. With the controller manager running, start the IHMC wholebody controller by clicking the 'Start IHMC Controller' button,
 
 [[images/ClickStartIHMCController.png]]
+
+Now you can open IHMC's visualizer. 
+
+FINISH ME
