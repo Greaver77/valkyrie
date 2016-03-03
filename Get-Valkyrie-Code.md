@@ -1,5 +1,3 @@
-######The content of this page is updating frequently.
-
 ##Valkyrie Code and You  
 ####A guide to fill your robot's soul  
 
