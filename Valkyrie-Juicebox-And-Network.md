@@ -19,4 +19,4 @@ Each Juicebox is designed to be a self contained robot network. The supplied Tra
 **Travel Logger NAS:** ```10.185.0.5```  
 **Nighthawk Router:** ```10.185.0.1```  
 
-<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/ValNetwork.png" width="650">  
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/ValNetwork.png" width="500">  
