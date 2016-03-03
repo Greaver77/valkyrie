@@ -53,3 +53,8 @@ With the IHMC Controller running, you are now ready to open up the remote visual
 
 After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following,
 
+INSERT VISUALIZER IMAGE HERE
+
+Now that the controller is running and the SCS Visualizer is up, it's a goood time to servo the robot. At the bottom of the mission control GUI you will see a number of buttons in a 'Servo' box that servo either the entire robot or the individual limbs,
+
+[[images/ClickServoRobot.png]]
