@@ -20,6 +20,7 @@ __Valkyrie__
   * [Shared Memory Transport](Shared-Memory-Transport)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
   * [Valkyrie Environment Configuration](Valkyrie-Environment-Configuration)
+  * [Valkyrie Juicebox and Network](Valkyrie-Juicebox-And-Network)
 * How-to
   * [How-To Calibrate Valkyrie's Joints](How To Calibrate Your Valkyrie)
   * [How-To Boot Up Valkyrie](Booting Up Valkyrie)
