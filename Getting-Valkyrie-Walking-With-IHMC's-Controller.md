@@ -47,6 +47,9 @@ Once the controller has been successfully deployed, you will be able to start it
 
 [[images/ClickStartIHMCController.png]]
 
-Now you can open IHMC's visualizer. 
+With the IHMC Controller running, you are now ready to open up the remote visualizer. From Eclipse, run RemoteValkyrieVisualizer.java. A small window will pop up that lists the running controllers that you are able to attach a visualizer to. Odds are you only have a single controller running and will only see a single entry. Double click that entry,
 
-FINISH ME
+[[images/StartVisualizer.png]]
+
+After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following,
+
