@@ -58,3 +58,5 @@ INSERT VISUALIZER IMAGE HERE
 Now that the controller is running and the SCS Visualizer is up, it's a goood time to servo the robot. At the bottom of the mission control GUI you will see a number of buttons in a 'Servo' box that servo either the entire robot or the individual limbs,
 
 [[images/ClickServoRobot.png]]
+
+After servoing the robot, it should be in a 'stand prep' state(if you hear any high pitched squealing, it's likely some of the actuator rotors did not get initialized during servo. No worries, this is common. See our [trouble shooting page](Trouble Shooting) for a fix).
