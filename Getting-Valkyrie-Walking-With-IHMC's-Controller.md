@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 This page gives instructions on how to get Valkyrie up and walking with [IHMC](http://robots.ihmc.us/)'s wholebody controller. In doing so, we assume you are running a Valkyrie robot and thus have 2 onboard computers, referred to as Link and Zelda with Link being the realtime computer having IP address [LINK-IP] and zelda being the visualizer computer having IP address [ZELDA-IP]. For more complete, detailed instructions about SCS we refer you to the [IHMC Wiki](https://github.com/ihmcrobotics/ihmc-open-robotics-software/wiki).
 
 ## Prerequisites
