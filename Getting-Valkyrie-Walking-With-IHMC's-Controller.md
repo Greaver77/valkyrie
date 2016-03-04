@@ -63,7 +63,7 @@ After servoing the robot, it should be in a 'stand prep' state(if you hear any h
 
 With the entire robot servo'd the only things left to do is to tare the 6-axis force/torque sensors before putting the robot on the ground. To do so, in the search box on the left side of the robot visualizer search for the variable 'calibrateFootForceSensors'. It's possible that this variable has already been placed in a tab at the bottom of the visualizer. If it has, you may simply toggle it to 1 there. If it's not there, go ahead and search for it in the box and when you find it, toggle it to 1(it will toggle itself back to 0). 
 
-INSERT CALIBRATE FOOT FORCE SENSORS IMAGE
+[[images/ClickCalibrateFootForceSensors.png]]
 
 Now your ready to put the robot onto the ground. Lower Valkyrie until her feet are securely on the ground,
 
