@@ -51,9 +51,9 @@ With the IHMC Controller running, you are now ready to open up the remote visual
 
 [[images/StartVisualizer.png]]
 
-After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following,
+After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following(odds are yours will be in a different kinematic configuration),
 
-INSERT VISUALIZER IMAGE HERE
+[[images/IHMCVisualizer.png]]
 
 Now that the controller is running and the SCS Visualizer is up, it's a goood time to servo the robot. At the bottom of the mission control GUI you will see a number of buttons in a 'Servo' box that servo either the entire robot or the individual limbs,
 
@@ -63,8 +63,6 @@ After servoing the robot, it should be in a 'stand prep' state(if you hear any h
 
 With the entire robot servo'd the only things left to do is to tare the 6-axis force/torque sensors before putting the robot on the ground. To do so, in the search box on the left side of the robot visualizer search for the variable 'calibrateFootForceSensors'. It's possible that this variable has already been placed in a tab at the bottom of the visualizer. If it has, you may simply toggle it to 1 there. If it's not there, go ahead and search for it in the box and when you find it, toggle it to 1(it will toggle itself back to 0). 
 
-<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/ClickCalibrateFootForceSensors.png" width="250"> 
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/ClickCalibrateFootForceSensors.png" width="1250"> 
 
-Now your ready to put the robot onto the ground. Lower Valkyrie until her feet are securely on the ground,
-
-
+Now your ready to put the robot onto the ground to stand up. Lower Valkyrie until her feet are securely on the ground. Once the feet are firmly down, you need to change the variable 'requestedHighLevelState' to 'Walking'. To do so, if the variable is not already docked on the bottom of your visualizer, search for it in the search box. Once you have found it, drag and drop it into a tab at the bottom of the visualizer and change it to 'Walking'. It will switch itself back to NULL, this means it has successfully been set. Now you are ready to stand the robot up. The far right slider on your midi-board controls the desired center of mass height of the robot. Slide it to approximately half way up. Now slowly ramp the second slider from the right up. As you do so, the robot will transition into standing.
