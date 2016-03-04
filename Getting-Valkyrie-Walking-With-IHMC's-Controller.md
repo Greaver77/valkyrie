@@ -53,3 +53,18 @@ With the IHMC Controller running, you are now ready to open up the remote visual
 
 After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following,
 
+INSERT VISUALIZER IMAGE HERE
+
+Now that the controller is running and the SCS Visualizer is up, it's a goood time to servo the robot. At the bottom of the mission control GUI you will see a number of buttons in a 'Servo' box that servo either the entire robot or the individual limbs,
+
+[[images/ClickServoRobot.png]]
+
+After servoing the robot, it should be in a 'stand prep' state(if you hear any high pitched squealing, it's likely some of the actuator rotors did not get initialized during servo. No worries, this is common. Park the robot and see our [trouble shooting page](Trouble Shooting) for a fix).
+
+With the entire robot servo'd the only things left to do is to tare the 6-axis force/torque sensors before putting the robot on the ground. To do so, in the search box on the left side of the robot visualizer search for the variable 'calibrateFootForceSensors'. It's possible that this variable has already been placed in a tab at the bottom of the visualizer. If it has, you may simply toggle it to 1 there. If it's not there, go ahead and search for it in the box and when you find it, toggle it to 1(it will toggle itself back to 0). 
+
+INSERT CALIBRATE FOOT FORCE SENSORS IMAGE
+
+Now your ready to put the robot onto the ground. Lower Valkyrie until her feet are securely on the ground,
+
+

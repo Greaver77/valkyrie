@@ -12,4 +12,4 @@ When running Valkyrie there will undoubtedly be times where you find yourself in
 
 ### Clicking UI buttons results in a bunch of "Request Timed Out" error messages in the UI log window
 
- 
+### After servoing actuators, I hear a high pitched squealing sound and some actuators overhead very quickly
