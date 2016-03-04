@@ -51,7 +51,7 @@ With the IHMC Controller running, you are now ready to open up the remote visual
 
 [[images/StartVisualizer.png]]
 
-After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following,
+After loading for a few seconds, a remote visualizer will come up that should show you a visualization of your robot and should look something like the following(odds are yours will be in a different kinematic configuration),
 
 [[images/IHMCVisualizer.png]]
 
