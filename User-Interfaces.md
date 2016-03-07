@@ -1,6 +1,4 @@
 [[images/under_construction.png]]
 
-[robot status]()
-
-[actuator status]()
+Page about status UI's, how to open them, and what's in them.
 
