@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 # So You Want To Make Your Own Controller
 
 The first thing you need to understand for creating your own controller, is the method for interfacing that controller with the Valkyrie API. Valkyrie uses ros_control as a method of exposing interfaces to the user as well as well as for loading and unloading controllers. Information on the ros-control architecture can be found [here](https://github.com/ros-controls). 
