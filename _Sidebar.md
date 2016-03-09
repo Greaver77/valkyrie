@@ -22,6 +22,7 @@ __Valkyrie__
   * [Valkyrie Environment Configuration](Valkyrie-Environment-Configuration)
   * [Valkyrie Juicebox and Network](Valkyrie-Juicebox-And-Network)
 * How-to
+  * [How-To Configure Microstrain IMU's](Configure Microstrain IMU's)
   * [How-To Calibrate Valkyrie's Joints](How To Calibrate Your Valkyrie)
   * [How-To Boot Up Valkyrie](Booting Up Valkyrie)
   * [How-To Write A Controller For Valkyrie](How-To Write A Controller For Valkyrie)
