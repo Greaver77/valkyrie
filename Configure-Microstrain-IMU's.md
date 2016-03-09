@@ -19,3 +19,21 @@ To get started, plug in your Microstrain IMU to a Windows computer. From the Sta
 A window should pop up, listing the available IMU's that it has found,
 
 [[images/MIPMonitorOpeningScreen.png]]
+
+Your IMU should be listed in the box. Make sure the model and serial numbers listed match your device,
+
+[[images/MIPMonitorOpeningScreenWithArrows.png]]
+
+You must start the device streaming. To do this, simply click the blue play button on the opening screen,
+
+[[images/MIPMonitorClickPlayAnnotated.png]]
+
+After clicking play, the status box should read, 'Streaming Data'. To now configure the settings of the device, click Settings->Device...,
+
+[[images/MIPMonitorClickSettingsDeviceSettings.png]]
+
+The following window will pop up,
+
+[[images/MIPMonitorDeviceSetupIMUTabAnnotated.png]]
+
+**Make sure you are on the IMU tab in Device Setup and NOT the Estimation Filter tab. The Estimation Filter tab should not contain any packet information. If it does, remove it or you will see IMU performance issues.**
