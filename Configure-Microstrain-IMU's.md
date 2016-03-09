@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 # Your Microstrain and You
 
 This page gives detailed instructions for configuring the Microstrain IMU's on Val. The configuration resulting from these instructions will return the IMU to the state it should be in when it arrives, however, should you change the configuration these instructions will show you how to return it to the initial configuration. There are 2 flavors of Microstrain IMU's on Val, both the [3DM-GX4-25](http://www.microstrain.com/inertial/3dm-gx4-25) and the [3DM-GX4-15](http://www.microstrain.com/inertial/3dm-gx4-15). 
