@@ -35,5 +35,6 @@ After clicking play, the status box should read, 'Streaming Data'. To now config
 The following window will pop up,
 
 [[images/MIPMonitorDeviceSetupIMUTabAnnotated.png]]
+[[images/tmp.png]]
 
 **Make sure you are on the IMU tab in Device Setup and NOT the Estimation Filter tab. The Estimation Filter tab should not contain any packet information. If it does, remove it or you will see IMU performance issues.**
