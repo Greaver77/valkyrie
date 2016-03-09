@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 # Your Microstrain and You
 
 This page gives detailed instructions for configuring the Microstrain IMU's on Val. The configuration resulting from these instructions will return the IMU to the state it should be in when it arrives, however, should you change the configuration these instructions will show you how to return it to the initial configuration. There are 2 flavors of Microstrain IMU's on Val, both the [3DM-GX4-25](http://www.microstrain.com/inertial/3dm-gx4-25) and the [3DM-GX4-15](http://www.microstrain.com/inertial/3dm-gx4-15). 
@@ -35,6 +33,33 @@ After clicking play, the status box should read, 'Streaming Data'. To now config
 The following window will pop up,
 
 [[images/MIPMonitorDeviceSetupIMUTabAnnotated.png]]
-[[images/tmp.png]]
 
-**Make sure you are on the IMU tab in Device Setup and NOT the Estimation Filter tab. The Estimation Filter tab should not contain any packet information. If it does, remove it or you will see IMU performance issues.**
+**Make sure you are on the IMU tab in Device Setup and NOT the Estimation Filter tab. The Estimation Filter tab should not contain any packet information. If it does, remove it or you will see IMU performance issues.** If the packets listed in the IMU tab are empty, add the packets shown in the above filter and have each of them run at 250Hz. If they match what is in the figure, no need to do anything. 
+
+Now click on the 'Low Pass Filter 1' tab. If you have a GX4-15 model, it may just be labeled 'Low Pass Filter',
+
+[[images/MIPMonitorDeviceSetupLowPassFilter1Tab.png]]
+
+Configure both the Accel and Gyro filters to filter at 50Hz.  **If** you have a GX4-25, click the 'Low Pass Filter 2' tab, and configure the filter on the Mag to also filter at 50Hz,
+
+[[images/MIPMonitorDeviceSetupLowPassFilter2Tab.png]]
+
+If you have a GX4-15, then you do not have a mag and you can skip this step. Now you need to set the baud rate. You may exit out of this window and go back to the main MIP Monitor window. To set the baud rate, click Settings->System...,
+
+[[images/MIPMonitorClickSettingsSystemSettings.png]]
+
+This will bring up a window listing the baud rate. Change it to 921600,
+
+[[images/MIPMonitorSystemSettings.png]]
+
+If you would like to capture the gyro bias, make sure the IMU is absolutely still and click Settings->Capture Gyro Bias...,
+
+[[images/MIPMonitorCaptureGyroBias.png]]
+
+Finally, you need to tell the IMU to save the settings otherwise they will be gone once power is removed. Simple click Settings->Save Current Settings...,
+
+[[images/MIPMonitorSaveSettings.png]]
+
+Now you can click the stop button to stop the device streaming and you are done,
+
+[[images/MIPMonitorStop.png]]
