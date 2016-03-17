@@ -83,6 +83,7 @@ roslaunch val_deploy val_controller_manager.launch model_file:=model/urdf/forear
 ```
 
 **Reset Faults**
+
 **Park**
 
 Once the controller manager has started it is waiting for a ROS controller to be loaded. 
