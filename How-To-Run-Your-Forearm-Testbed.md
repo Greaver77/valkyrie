@@ -8,7 +8,7 @@ It will be described here how to get a forearm testbed into a state that is read
 
 ### Assumptions
 - You are running a left forearm. For a right forearm, most of the instructions are the same, just replace 'left' with 'right'.
-- You must have our code. You can [get it here](Get Our Code)
+- You must have our code. You can get it [here](Get Valkyrie Code)
 - Your catkin workspace is build and installed. Do this by ```cd ~/val_indigo/ && catkin_make install``` if you have not
 
 Step one is to start ```smtcore```, so in a terminal execute
