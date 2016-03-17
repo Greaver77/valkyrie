@@ -7,6 +7,8 @@ This page gives detailed instructions for configuring the Microstrain IMU's on V
 - You have installed the MIP Monitor software. This comes on a blue flash drive with the IMU's. You should have gotten one with your Val. If you did not, please [contact us](Contact Us).
 - You have the Microstrain IMU cable that goes from the IMU's 9-pin connector to USB.
 
+**Note: Some of the text in the MIP Monitor UI's may differ slightly from the images seen here. This is likely due to different versions of the MIP Monitor software. It should, however, be very similar and close enough to get you through the configuration process. If you have questions, feel free to [contact us](Contact Us)**
+
 ## Configuring the IMU
 The instructions here are written using a 3DM-GX4-25, however, the instructions for the 3DM-GX4-15 are the same with the exception of the magnetometer stuff.
 
