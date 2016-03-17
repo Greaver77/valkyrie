@@ -18,7 +18,7 @@ smtcore
 
 With ```smtcore``` running, you can now load a schedule file. As I said, this page assumes your running a *left* forearm and the schedule file used here will reflect that. It should be straightforward to infer from this how to get this going for a right forearm(hint: use the forearm_testbed_right.yaml schedule file!).
 
-The schedule file used here is forearm_testbed_left.yaml and it can be found in [nasa_val_config](https://github.com/NASA-JSC-Robotics/nasa_val_config) and looks like the following,
+The schedule file used here is forearm_testbed_left.yaml can be found in [nasa_val_config](https://github.com/NASA-JSC-Robotics/nasa_val_config) and looks like the following,
 
 ```yaml
 left_arm:
