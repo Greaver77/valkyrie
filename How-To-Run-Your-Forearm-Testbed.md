@@ -40,11 +40,13 @@ control <path_to_schedule_file>
 For the schedule file above that command becomes,
 
 ```bash
-control ~/val_indigo/install/share/nasa_val_config_files/robonet_schedules/forearm_testbed_left.yaml
+control -r ~/val_indigo/install/share/nasa_val_config_files/robonet_schedules/forearm_testbed_left.yaml
 ```
 
 The terminal output from that command should look like,
 
 [[images/RunControl.png]]
 
-The next step involves loading coefficients to the boards that control the forearm actuators. There are 2 [Athena boards](Glossary Of Terms) that control the wrists and fingers as well as a [Leonidas board](Glossary Of Terms) that runs the forearm yaw actuator.
+The next step involves loading coefficients(coeffs) to the boards that control the forearm actuators. There are 2 [Athena boards](Glossary Of Terms) that control the wrists and fingers as well as a [Leonidas board](Glossary Of Terms) that runs the forearm yaw actuator. To load the correct coeffs, you will need to look on the hardware for the serial numbers of the forearm yaw actuator(v_g_*) and wrist/finger(v_h_*) actuators. Here is an example of what to look for,
+
+[[images/forearm_serials.png]]
