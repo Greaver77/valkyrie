@@ -82,10 +82,25 @@ Now you should see more terminal output telling you it successfully loaded coeff
 roslaunch val_deploy val_controller_manager.launch model_file:=model/urdf/forearm_left.urdf
 ```
 
-**Reset Faults**
+After you have loaded your controller, the last step is to put the forearm in position control mode. To do this, first you should reset it(clears faults, resets estops), then park it, then put it in to position mode. Our controller manager also has a mode controller for doing just this. To reset the forearm, type the following command into a terminal,
 
-**Park**
+```bash
+rosservice call /joint_mode_controller/sendCommands "modeCommands:
+- resource: '/left_arm/athena1'
+  command: 'Reset'"
 
-Once the controller manager has started it is waiting for a ROS controller to be loaded. 
+Now a similar command for park,
 
-**Servo**
+rosservice call /joint_mode_controller/sendCommands "modeCommands:
+- resource: '/left_arm/athena2'
+  command: 'Park'"
+```
+
+and finally put it into position mode. *The forearm will move when this command is executed, so make sure you have everything in order before putting it into position mode.
+
+```bash
+rosservice call /joint_mode_controller/sendCommands "modeCommands:
+- resource: '/left_arm/athena1'
+  command: 'PositionMode'"
+
+```
