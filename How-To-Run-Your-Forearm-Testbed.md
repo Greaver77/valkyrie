@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 ## Prerequisites
 - Testbed computer is setup. See how to setup testbed page(ADD LINK TO PAGE)
 
@@ -98,7 +96,7 @@ rosservice call /joint_mode_controller/sendCommands "modeCommands:
   command: 'Park'"
 ```
 
-and finally put it into position mode. *The forearm will move when this command is executed, so make sure you have everything in order before putting it into position mode.*
+and finally put it into position mode. **The forearm will move when this command is executed, so make sure you have everything in order before putting it into position mode.**
 
 ```bash
 rosservice call /joint_mode_controller/sendCommands "modeCommands:
