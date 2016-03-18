@@ -88,9 +88,11 @@ After you have loaded your controller, the last step is to put the forearm in po
 rosservice call /joint_mode_controller/sendCommands "modeCommands:
 - resource: '/left_arm/athena1'
   command: 'Reset'"
+```
 
 Now a similar command for park,
 
+```bash
 rosservice call /joint_mode_controller/sendCommands "modeCommands:
 - resource: '/left_arm/athena2'
   command: 'Park'"
