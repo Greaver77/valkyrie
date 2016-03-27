@@ -5,11 +5,8 @@ Before getting started, make sure you have install the system level dependencies
 
     sudo apt-get install qtbase5-dev libyaml-cpp-dev libyaml-cpp libasound2 libasound2-dev
 
-Make sure you have our dependencies:
+Also make sure you have installed [our code](Get Our Code)
 
-* rtmidi(http://pintsize.jsc.nasa.gov/stash/projects/VCS/repos/rtmidi/browse)
-* nasa_common_cmake(http://pintsize.jsc.nasa.gov/stash/projects/NC/repos/nasa_common_cmake/browse)
-* shared_memory_transport(http://pintsize.jsc.nasa.gov/stash/projects/SMT/repos/shared_memory_transport/browse)
 
 ### Step By Step Guide
 1. Make sure you have smtcore running and a schedule loaded
