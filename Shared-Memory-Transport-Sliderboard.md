@@ -40,7 +40,7 @@ cd ~/val_indigo
 
 After launching the application you should see the following user interface,
 
-[[images/SliderBoard.png]]
+[[images/Sliderboard.png]]
 
 5. Once the GUI is connected to the board, you are free to attach dials, sliders, and buttons to shared memory variables. When you click "Attach to Variable", a dialog will come up and ask you to type in the shared memory topic name.
 6. Update the range for the selected variable you have attached.  To update the ranges, simply type the desired "Min" and "Max" values in the boxes of an element that is attached to a topic and click "Apply Ranges". Depending on the ranges you choose, the sliders may jump a bit.
