@@ -1,5 +1,3 @@
-[[images/under_construction.png]]  
-
 # Prerequisites
 To follow these instructions, you must first have the following:
 * Valkyrie Software(get that [here](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code))
@@ -26,6 +24,4 @@ roslaunch val_gazebo val_sim.launch
 
 In either case the Gazebo simulator will come up showing Valkyrie,
 
-```bash
 [[images/ValInGazebo.png]]
-```
