@@ -42,10 +42,25 @@ After launching the application you should see the following user interface,
 
 [[images/sliderboard.png]]
 
-5. Once the GUI is connected to the board, you are free to attach dials, sliders, and buttons to shared memory variables. When you click "Attach to Variable", a dialog will come up and ask you to type in the shared memory topic name.
-6. Update the range for the selected variable you have attached.  To update the ranges, simply type the desired "Min" and "Max" values in the boxes of an element that is attached to a topic and click "Apply Ranges". Depending on the ranges you choose, the sliders may jump a bit.
+If your sliderboard is not connected and turned on when you start the UI, the status box will say 'Disconnected'. Once plugged in and powered on it should dynamically update and say 'Connected'.
 
-### Other options
-* If you have a configuration that like and would like to return to, you may click the "Save Configuration" button, and a file explorer will come up asking you where you want to save your configuration file and what you want to name it.
-* To load a sliderboard configuration, simply click the "Load Configuration" button and navigate to you config file.
-* If you want to wipe the sliderboard, you may click the "Reset Sliderboard" button. This will return all sliderboard elements to zero and detach from all shared memory elements.
+### Attach to topics
+The first step is to click the 'Attach To Variable' button next to a dial, button, or slider that you would like to map to a shared memory topic. A dialog box will pop up asking for the name of the desired topic,
+
+[[images/AttachToVariable.png]]
+
+Note that when you initially attach to a topic, the 'Min' and 'Max' values will be set to the current value, so moving the slider will not vary the value. 
+
+### Set topic ranges
+Once you have attached sliders and dials to the desired topics, you should now set the desired Min/Max values. Simply click in the Min/Max text boxes beneath the dials and sliders and set the value. To actually apply the ranges, either click the 'Apply Ranges' button or use the keyboard shortcut 'Ctrl+a'. Once you apply the ranges, the sliders/dials on the board will jump in place to prevent the current value from changing. 
+
+Keep in mind that buttons can only take the value 0 or 1. 
+
+### Reset Sliders
+If you would like to wipe the board clean of all topics and ranges, click the 'Reset Sliderboard' button or use the keyboard shortcut 'Ctrl+r' and all sliders/dials will return to zero and all topics/limits will be wiped clean.
+
+### Save a configuration
+If you have a sliderboard configuration that you would like to be able to return to quickly, you may save a configuration by clicking the 'Save Configuration' button or through the keyboard shortcut 'Ctrl+s' and a file window will appear asking for the desired save location.
+
+### Load configuration
+To load a saved configuration, click the 'Load Configuration' button or press the keyboard shortcut 'Ctrl+o' to bring up a file window. Simply navigate to your saved configuration file and the sliderboard will populate the sliders/knobs will all the data in your configuration file.
