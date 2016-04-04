@@ -22,17 +22,21 @@ Download the workspace repository to the home directory:
 ### Download Code
 Choose from one of the three workspaces below:  
 
-Robot Workspace:  
+Developer or Testbed Workspace:  
 
-    vcs import --input ~/val_workspaces/public_robot_workspace.yaml ~/val_indigo/src/
+    vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/  
 
-Developer/Visualizer Workspace:  
+Headless Realtime Robot Workspace:  
 
-    vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/
+    vcs import --input ~/val_workspaces/public_robot_workspace.yaml ~/val_indigo/src/  
 
-Testbed/Build Machine Workspace:  
+Headless Vision Robot Workspace:  
 
-    vcs import --input ~/val_workspaces/public_full_workspace.yaml ~/val_indigo/src/
+    vcs import --input ~/val_workspaces/public_vision_workspace.yaml ~/val_indigo/src/  
+
+Operator Workstation Workspace:  
+
+    vcs import --input ~/val_workspaces/public_operator_workspace.yaml ~/val_indigo/src/  
 
 Source your completed environment.  
 
