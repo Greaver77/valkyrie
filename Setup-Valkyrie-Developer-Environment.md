@@ -47,7 +47,7 @@ This step will install ros-indigo, support packages for Orocos, and standard dev
 
 Install Common Base Packages:
 
-    sudo apt-get install wget curl apt-utils nano vim htop python-apt python-pip python-vcstool python-rosdep python-rosinstall python-dev libzmq1 libzmq-dev libprotobuf-dev google-mock lm-sensors openssh-server build-essential git-flow protobuf-compiler ros-indigo-catkin syslog-ng syslog-ng-core dkms liblzo2-dev
+    sudo apt-get install wget curl apt-utils nano vim htop python-apt python-pip python-vcstool python-rosdep python-rosinstall python-dev libzmq1 libzmq-dev libprotobuf-dev google-mock lm-sensors openssh-server build-essential git-flow protobuf-compiler ros-indigo-catkin syslog-ng syslog-ng-core dkms liblzo2-dev libamd2.3.1 libcamd2.3.1 libccolamd2.8.0 libcholmod2.1.2 libumfpack5.6.2 python-decorator python-scipy  
 
 **Please choose ONE** of the two options below. ROS Headless will install ros-indigo-ros-base. ROS Desktop will install ros-indigo-desktop-full.
 
