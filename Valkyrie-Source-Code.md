@@ -51,6 +51,7 @@ Run the following line to ensure all dependencies have been resolved.
     vcs custom --args checkout develop
     rosdep install --from-paths src -i -y
 
+This step is only needed for robot processors and testbeds. Do NOT do this step for operator workstations.  
 Move the Vanguard init file.  
 
     sudo cp ~/val_indigo/src/val_vanguard_config/upstart/val-vanguard.conf /etc/init/val-vanguard.conf
