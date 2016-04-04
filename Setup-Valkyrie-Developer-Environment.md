@@ -65,7 +65,7 @@ Install ROS Desktop:
 
 Download the following Debians:  
 [nasa-indigo-workspace](https://drive.google.com/file/d/0B4Esozi1aH0sZFJPSTVFNy1OM1k/view?usp=sharing)  
-[nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sbllHUTFvN0dnOXc/view?usp=sharing)  
+[nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sZlF4RXZKdFR1ZGs/view?usp=sharing)  
 [python-pyqtgraph](https://drive.google.com/file/d/0B4Esozi1aH0sZmdOY0dKanlfbzQ/view?usp=sharing)
 
 Install those Debians with the following commands:
