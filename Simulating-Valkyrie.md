@@ -27,3 +27,5 @@ In either case the Gazebo simulator will come up showing Valkyrie,
 [[images/ValInGazebo.png]]
 
 These launch scripts also launch a [controller manager](http://wiki.ros.org/controller_manager), so the controller manager is sitting and waiting to load ROS controllers. For info on how to write ROS controllers, we have a page with some rough instructions [here](How To Write A Controller For Valkyrie) or you can refer to the [ROS control wiki](http://wiki.ros.org/ros_control).
+
+Additionally, if you are interested in using [IHMC](http://robots.ihmc.us/)'s controller you may visit the [IHMC wiki](http://ihmcrobotics.github.io/). You can find their Valkyrie specific ROS control stuff [here](https://github.com/ihmcrobotics/ihmc_valkyrie_ros).
