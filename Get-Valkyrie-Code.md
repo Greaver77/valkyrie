@@ -25,8 +25,9 @@ The second way to get our code, more appropriate for unstable features or live e
 Select the appropriate Visualizer Debian package from below:
 
 [NEU Vis03](https://drive.google.com/file/d/0B4Esozi1aH0sbVZpS2tKenZRNVE/view?usp=sharing)  
-[UoE Vis04](https://drive.google.com/file/d/0B4Esozi1aH0sSV9aV3I4UU0xQkE/view?usp=sharing)
+[UoE Vis04](https://drive.google.com/file/d/0B4Esozi1aH0sSV9aV3I4UU0xQkE/view?usp=sharing)  
 
+[Testbed](https://drive.google.com/file/d/0B4Esozi1aH0sLUJvRHhqYkplVWs/view?usp=sharing)
 ***
 
 ## Utils
