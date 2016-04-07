@@ -14,6 +14,7 @@ Each Juicebox is designed to be a self contained robot network. The supplied Tra
 **Val:**  
  * Link Processor: ```10.185.0.(10, 20, 30, 40)```  
  * Zelda Processor: ```10.185.0.(11, 21, 31, 41)```  
+ * Multisense SL: ```10.185.0.(12, 22, 32, 42)```
 
 **Visualizer Computer:** ```10.185.0.(101, 102, 103, 104)```  
 **Travel Logger NAS:** ```10.185.0.5```  
