@@ -20,7 +20,7 @@ Download the workspace repository to the home directory:
 ***
 
 ### Download Code
-Choose from one of the three workspaces below:  
+Choose from **one** of the four workspaces below:  
 
 Developer or Testbed Workspace:  
 
