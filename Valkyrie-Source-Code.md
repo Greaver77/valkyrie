@@ -1,7 +1,7 @@
 ## Pre-requisites:
-SSH keys - Ensure you have a ssh key with [github](https://help.github.com/articles/generating-ssh-keys/)  
+* SSH keys - Ensure you have a ssh key with [github](https://help.github.com/articles/generating-ssh-keys/)  
 
-You will need [vcstool](https://github.com/dirk-thomas/vcstool).  To install: 
+* You will need [vcstool](https://github.com/dirk-thomas/vcstool).  To install: 
 
     sudo apt-get install python-vcstool
 
