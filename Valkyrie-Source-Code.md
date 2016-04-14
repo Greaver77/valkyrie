@@ -1,9 +1,7 @@
 ## Pre-requisites:
 * SSH keys - Ensure you have a ssh key with [github](https://help.github.com/articles/generating-ssh-keys/)  
 
-* You will need [vcstool](https://github.com/dirk-thomas/vcstool).  To install: 
-
-    sudo apt-get install python-vcstool
+* Expected that you will have completed [Setup Valkyrie Developer Environment](Setup-Valkyrie-Developer-Environment)
 
 ***
 
