@@ -43,21 +43,11 @@ Configure your users and groups with the following:
 
 ### Install Developer Dependencies
 
-This step will install ros-indigo, support packages for Orocos, and standard developer tools/libraries.  
+This step will install the core dependencies, support packages, and standard developer tools/libraries required by the Valkyrie development environment.  
 
-Install Common Base Packages:
+Install the following packages:
 
-    sudo apt-get install wget curl apt-utils nano vim htop python-apt python-pip python-vcstool python-rosdep python-rosinstall python-dev libzmq1 libzmq-dev libprotobuf-dev google-mock lm-sensors openssh-server build-essential git-flow protobuf-compiler ros-indigo-catkin syslog-ng syslog-ng-core dkms liblzo2-dev libamd2.3.1 libcamd2.3.1 libccolamd2.8.0 libcholmod2.1.2 libumfpack5.6.2 python-decorator python-scipy libjsoncpp-dev libjsoncpp0  
-
-**Please choose ONE** of the two options below. ROS Headless will install ros-indigo-ros-base. ROS Desktop will install ros-indigo-desktop-full.
-
-Install ROS Headless:  
-
-    sudo apt-get install ros-indigo-ros-base ros-indigo-rtt-ros ros-indigo-orocos-toolchain ros-indigo-rtt-ros-integration ros-indigo-rtt-geometry ros-indigo-rtt-common-msgs ros-indigo-rtt-ros-comm ros-indigo-xacro ros-indigo-ros-control ros-indigo-ros-controllers
-
-Install ROS Desktop:  
-
-    sudo apt-get install ros-indigo-desktop-full ros-indigo-rtt-ros ros-indigo-orocos-toolchain ros-indigo-rtt-ros-integration ros-indigo-rtt-geometry ros-indigo-rtt-common-msgs ros-indigo-rtt-ros-comm ros-indigo-xacro ros-indigo-ros-control ros-indigo-ros-controllers
+    sudo apt-get install binutils ca-certificates cpp cpp-4.8 curl fontconfig fontconfig-config fonts-dejavu-core g++ g++-4.8 gcc gcc-4.8 git git-flow htop iso-codes krb5-locales libamd2.3.1 libasan0 libatomic1 libaudio2 libavahi-client3 libavahi-common-data libavahi-common3 libblas3 libc-dev-bin libc6-dev libcamd2.3.1 libccolamd2.8.0 libcholmod2.1.2 libcloog-isl4 libcolamd2.8.0 libcups2 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libelf1 libexpat1-dev libfontconfig1 libfreetype6 libgcc-4.8-dev libgfortran3 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libglib2.0-0 libglib2.0-data libgmp10 libgomp1 libgssapi-krb5-2 libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libice6 libisl10 libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 liblapack3 liblcms2-2 libllvm3.4 libmpc3 libmpfr4 libmysqlclient18 liborc-0.4-0 libpciaccess0 libpython-dev libpython-stdlib libpython2.7 libpython2.7-dev libpython2.7-minimal libpython2.7-stdlib libqt4-dbus libqt4-declarative libqt4-designer libqt4-help libqt4-network libqt4-opengl libqt4-script libqt4-scripttools libqt4-sql libqt4-sql-mysql libqt4-svg libqt4-test libqt4-xml libqt4-xmlpatterns libqtassistantclient4 libqtcore4 libqtdbus4 libqtgui4 libqtwebkit4 libquadmath0 libsm6 libstdc++-4.8-dev libtiff5 libtsan0 libtxc-dxtn-s2tc0 libumfpack5.6.2 libwebp5 libwebpmux1 libx11-6 libx11-data libx11-xcb1 libxau6 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-sync1 libxcb1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxi6 libxml2 libxrender1 libxshmfence1 libxslt1.1 libxt6 libxxf86vm1 linux-libc-dev lm-sensors manpages manpages-dev mysql-common nano openssl python python-decorator python-dev python-imaging python-minimal python-numpy python-pil python-pip python-qt4 python-rosdep python-scipy python-sip python-six python-support python-vcstool python2.7 python2.7-dev python2.7-minimal qdbus qtchooser qtcore4-l10n ros-indigo-catkin sgml-base shared-mime-info syslog-ng-core vim wget x11-common xml-core  
 
 ***
 
@@ -68,9 +58,21 @@ Download the following Debians:
 [nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sZlF4RXZKdFR1ZGs/view?usp=sharing)  
 [python-pyqtgraph](https://drive.google.com/file/d/0B4Esozi1aH0sZmdOY0dKanlfbzQ/view?usp=sharing)
 
-Install those Debians with the following commands:
+Navigate to the download location and install the Debians with the following command:
 
     sudo dpkg -i nasa-indigo-workspace*.deb nasa-val-system-config*.deb python-pyqtgraph*.deb
+
+#### Extra steps for Link Processor or Testbed
+If setting up the Link robot processor or a testbed, complete these extra steps. Install the following packages:
+
+    binutils cpp cpp-4.8 dkms fakeroot gcc gcc-4.8 libasan0 libatomic1 libc-dev-bin libc6-dev libcloog-isl4 libfakeroot libgcc-4.8-dev libgmp10 libgomp1 libisl10 libitm1 libjsoncpp-dev libjsoncpp0 liblzo2-2 liblzo2-dev libmpc3 libmpfr4 libquadmath0 libtsan0 linux-libc-dev make manpages manpages-dev patch  
+
+Download the following Debians:  
+[nasa-robonet-synapse-driver]()  
+
+Navigate to the download location and install the Debian with the following command:
+
+    sudo dpkg -i nasa-robonet-synapse-driver*.deb 
 
 ***
 
