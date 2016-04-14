@@ -56,9 +56,22 @@ Do NOT do this step for developer machines or operator workstations. Move the Va
 
 ***
 ### Troubleshooting
+
+##### Authentication errors?
 Getting authentication errors? Try the following:  
 
     ssh -T git@github.com
 
 If that didn't come back successful, check the docs: 
 [Test the Connection](https://help.github.com/articles/generating-ssh-keys/#step-5-test-the-connection).
+
+If it did, your internet connection may have dropped out. Try downloading things again.
+
+##### val_vision compilation errors
+This is a known issue.
+
+    rm -rf ~/val_indigo/src/val_vision
+
+##### Compile errors
+* Ensure you are on the proper branch (develop most likely)
+* Run the rosdep install line again. Maybe a dependency slipped though the cracks... because gazebo does that.
