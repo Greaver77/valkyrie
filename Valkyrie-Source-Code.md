@@ -1,6 +1,6 @@
 ## Pre-requisites:
 * SSH keys - Ensure you have a ssh key with [github](https://help.github.com/articles/generating-ssh-keys/)  
-
+  This also means any existing ssh keys on the robot should be removed and replaced with the host teams ssh key.  
 * Expected that you will have completed [Setup Valkyrie Developer Environment](Setup-Valkyrie-Developer-Environment)
 
 ***
