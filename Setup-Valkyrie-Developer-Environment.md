@@ -55,7 +55,7 @@ Install the following packages:
 
 Download the following Debians:  
 [nasa-indigo-workspace](https://drive.google.com/file/d/0B4Esozi1aH0sZFJPSTVFNy1OM1k/view?usp=sharing)  
-[nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sZlF4RXZKdFR1ZGs/view?usp=sharing)  
+[nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sLXlYaE5RbnBSWVk/view?usp=sharing)  
 [python-pyqtgraph](https://drive.google.com/file/d/0B4Esozi1aH0sZmdOY0dKanlfbzQ/view?usp=sharing)
 
 Navigate to the download location and install the Debians with the following command:
@@ -68,7 +68,7 @@ If setting up the Link robot processor or a testbed, complete these extra steps.
     binutils cpp cpp-4.8 dkms fakeroot gcc gcc-4.8 libasan0 libatomic1 libc-dev-bin libc6-dev libcloog-isl4 libfakeroot libgcc-4.8-dev libgmp10 libgomp1 libisl10 libitm1 libjsoncpp-dev libjsoncpp0 liblzo2-2 liblzo2-dev libmpc3 libmpfr4 libquadmath0 libtsan0 linux-libc-dev make manpages manpages-dev patch  
 
 Download the following Debians:  
-[nasa-robonet-synapse-driver]()  
+[Synapse Driver](https://drive.google.com/file/d/0B4Esozi1aH0sLUJvRHhqYkplVWs/view?usp=sharing)  
 
 Navigate to the download location and install the Debian with the following command:
 
