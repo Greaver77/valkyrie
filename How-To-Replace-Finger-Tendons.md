@@ -60,3 +60,6 @@ The following table lists key points/measurements that will be referenced later,
 6. Again, using the wire, draw the tendon point "B" back through point C such that it untwists the twist created in Step 3.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep5.png" width="500">
+7. Hold the newly formed eye and pull on the non-tail side of the tendon to tighten, to snug the Brummel loops together. Do not pull excessively tight as to damage the woven pattern of the tendon.  
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep6.png" width="500">
