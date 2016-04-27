@@ -46,4 +46,13 @@ The following table lists key points/measurements that will be referenced later,
 
 1. Mark tendon material with points A, B, C, and tail length,
 
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/MarkTendonMaterial.png" width="500">
 
+2. Thread tendon through eye of needle on the tail side
+3. Insert needle into point C and draw tendon tail all the way through, and carefully invert the loop,
+
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/InsertNeedlePointC.png" width="250">
+
+4. Insert needle into point A and draw tendon tail all the way through, carefully invert the loop.
+
+<img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/InsertNeedlePointA.png" width="500">
