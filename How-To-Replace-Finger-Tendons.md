@@ -63,3 +63,9 @@ The following table lists key points/measurements that will be referenced later,
 7. Hold the newly formed eye and pull on the non-tail side of the tendon to tighten, to snug the Brummel loops together. Do not pull excessively tight as to damage the woven pattern of the tendon.  
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep6.png" width="500">
+8. aoeuaoeuao
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep7.png" width="500">
+9. aoeuaoeu
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep8.png" width="500">
