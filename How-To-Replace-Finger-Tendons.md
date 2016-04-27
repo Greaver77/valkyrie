@@ -69,3 +69,12 @@ The following table lists key points/measurements that will be referenced later,
 9. aoeuaoeu
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep8.png" width="500">
+10. aoeuaoeu
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep9.png" width="500">
+11. aoeuaoeu
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep10.png" width="500">
+12. aoeuaoeu
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep11.png" width="500">
