@@ -63,21 +63,27 @@ The following table lists key points/measurements that will be referenced later,
 7. Hold the newly formed eye and pull on the non-tail side of the tendon to tighten, to snug the Brummel loops together. Do not pull excessively tight as to damage the woven pattern of the tendon.  
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep6.png" width="500">
-8. aoeuaoeuao
+8. Insert the needle into the core of the tendon material near the bottom of the last Brummel eye.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep7.png" width="300">
-9. aoeuaoeu
+9. Draw the needle through the center and compress tendon braid to cover most of needle before allowing the need to protrude out of the core of the tendon.  
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep8.png" width="300">
-10. aoeuaoeu
+10. Draw needle all the way through and keep hold of the tail.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep9.png" width="300">
-11. aoeuaoeu
+11. Trim the tendon at the 1.5" tail mark at a steep angle
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep10.png" width="500">
-12. aoeuaoeu
+12. Fray the end of the tail to reduce the transition for the tail bury
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep11.png" width="500">
-13. aoeuaoeu
+13. Holding the eye, pull the tendon to bury the tail	
+
+14. Repeat on the other end as necessary and measure from eye tip to eye tip
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep12.png" width="500">
+
+15. Lubricate tendon with [krytox](http://www.amazon.com/DuPont-Krytox-Grease-Pure-Additives/dp/B00MWLDALQ)
+
+16. For more detailed notes of eye brummel splicing, please see: [animated knots](http://www.animatedknots.com/brummel/#ScrollPoint)
