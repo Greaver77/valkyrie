@@ -29,7 +29,7 @@ Select the appropriate Visualizer Debian package from below:
 [UoE Vis04](https://drive.google.com/file/d/0B4Esozi1aH0sNm1tVkdfUng5SHM/view?usp=sharing)  
 
 Testbed:  
-[Generic System Config](https://drive.google.com/file/d/0B4Esozi1aH0sLXlYaE5RbnBSWVk/view?usp=sharing)  
+[Generic System Config](https://drive.google.com/file/d/0B4Esozi1aH0sMDlWN1hPZ2NNamM/view?usp=sharing)  
 [Synapse Driver](https://drive.google.com/file/d/0B4Esozi1aH0sLUJvRHhqYkplVWs/view?usp=sharing)  
 
 ***

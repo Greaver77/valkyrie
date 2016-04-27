@@ -55,7 +55,7 @@ Install the following packages:
 
 Download the following Debians:  
 [nasa-indigo-workspace](https://drive.google.com/file/d/0B4Esozi1aH0sZFJPSTVFNy1OM1k/view?usp=sharing)  
-[nasa-val-system-config](https://drive.google.com/file/d/0B4Esozi1aH0sLXlYaE5RbnBSWVk/view?usp=sharing)  
+[Generic System Config](https://drive.google.com/file/d/0B4Esozi1aH0sMDlWN1hPZ2NNamM/view?usp=sharing)  
 [python-pyqtgraph](https://drive.google.com/file/d/0B4Esozi1aH0sZmdOY0dKanlfbzQ/view?usp=sharing)
 
 Navigate to the download location and install the Debians with the following command:
