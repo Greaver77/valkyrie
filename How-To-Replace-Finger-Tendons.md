@@ -57,3 +57,6 @@ The following table lists key points/measurements that will be referenced later,
 5. Using the wire, draw the tendon material point "B" back through point A such that it untwists the twist created in Step 4. Be sure to pull point "C" through the newly created eyelet.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep4.png" width="500"> 
+6. Again, using the wire, draw the tendon point "B" back through point C such that it untwists the twist created in Step 3.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonMakingStep5.png" width="500">
