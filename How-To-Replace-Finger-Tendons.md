@@ -29,4 +29,8 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
 7. Identify which motor drives the tendon that needs to be replaced and remove the APS sensor of that actuator to expose the pulley.
 
-    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep7.png" width="250"> 
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep7.png" width="500">
+
+8.  Remove the teflon disk using one or both forceps, being careful not to damage or deform the disk.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep8.png" width="750">
