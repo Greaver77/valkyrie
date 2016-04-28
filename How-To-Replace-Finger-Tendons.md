@@ -22,3 +22,5 @@ With these tools, the following steps will guide you in replacing a broken tendo
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep4.png" width="500"> 
 
 5. Remove the pin,
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep5.png" width="500"> 
