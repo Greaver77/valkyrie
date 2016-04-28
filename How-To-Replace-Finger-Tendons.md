@@ -24,3 +24,5 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep5.png" width="750"> 
 6. Withdraw tendon from finger links.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep6.png" width="750"> 
