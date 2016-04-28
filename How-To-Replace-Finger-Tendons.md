@@ -31,4 +31,6 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep7.png" width="500">
 
-8.  
+8.  Remove the teflon disk using one or both forceps, being careful not to damage or deform the disk.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep8.png" width="750">
