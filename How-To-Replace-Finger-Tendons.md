@@ -16,3 +16,7 @@ With these tools, the following steps will guide you in replacing a broken tendo
 2. Remove shells using M2.5 driver.
 
 3. Open up Athena 2 side mount to expose APS side of finger actuators using an M2 driver.
+
+4. Remove the distal finger nail cover to expose the terminator pin,
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep4.png" width="500"> 
