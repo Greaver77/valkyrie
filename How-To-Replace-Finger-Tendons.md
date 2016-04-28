@@ -29,7 +29,7 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
 7. Identify which motor drives the tendon that needs to be replaced and remove the APS sensor of that actuator to expose the pulley.
 
-    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep7.png" width="500">
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep7.png" width="250">
 
 8.  Remove the teflon disk using one or both forceps, being careful not to damage or deform the disk.
 
@@ -51,6 +51,14 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep12.png" width="750">
 
+13. A pair of forceps can be used when the wire peeks through into the housing itself.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep13.png" width="500">
+
 14. Pull the tendon through and place the loop on the pulley post. Do not yet bolt down the pulley to the output.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep14.png" width="500">
+
+15. Using a draw wire, pull the distal side of the tendon through the finger links to the distal link. Note that the thumb proximal (motor 5) terminates on the dorsal side of the proximal link of the thumb
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep15.png" width="500">
