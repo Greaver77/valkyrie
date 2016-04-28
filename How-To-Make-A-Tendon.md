@@ -2,7 +2,7 @@
 
 This page provides detailed directions for broken tendons that operate the fingers and thumb on Valkyie's hands. 
 
-### Tendon-Actuator Tendon Routing
+### Tendon-Actuator Routing
 The following table/graphic show which forearm motors correspond to which finger,
 
 [[images/valFingerActuatorLayout.png]]
