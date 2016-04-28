@@ -43,6 +43,10 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep10.png" width="500">
 
-11. Make a new tendon, make sure to properly lubricate it by rubbing krytox into the braid.
+11. [Make a new tendon](How To Make A Tendon), make sure to properly lubricate it by rubbing krytox into the braid.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep11.png" width="250">
+
+12. Using a draw wire, pull the side of the tendon with the larger hole through the base of the finger down to the actuator housing.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep12.png" width="750">
