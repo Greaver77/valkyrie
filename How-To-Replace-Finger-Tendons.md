@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 If you do not already have a replacement tendon prepared, you can find instructions for creating new tendons [here](How To Make A Tendon)
 
 ##### Replacing Tendons
@@ -76,8 +74,6 @@ With these tools, the following steps will guide you in replacing a broken tendo
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep18.png" width="500">
 
 19. Rotate the disk so that the flat or cut side of the disk is 180 degrees from the cutout on the pulley.
-
-    ASK VIENNEY ABOUT IMAGE
 
 20. Reinstall the APS sensor.
 
