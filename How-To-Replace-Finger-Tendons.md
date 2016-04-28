@@ -75,6 +75,8 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
 19. Rotate the disk so that the flat or cut side of the disk is 180 degrees from the cutout on the pulley.
 
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep19.png" width="500">
+
 20. Reinstall the APS sensor.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep20.png" width="500">
