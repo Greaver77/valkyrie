@@ -102,6 +102,7 @@ Run the following:
 
 Add the following to the bottom of your ~/.bashrc file:
 
+    source /opt/ros/indigo/setup.bash
     if [ -f ~/.bash_nasa_val ]; then
         source ~/.bash_nasa_val
     fi
