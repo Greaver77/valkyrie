@@ -87,3 +87,5 @@ The following table lists key points/measurements that will be referenced later,
 15. Lubricate tendon with [krytox](http://www.amazon.com/DuPont-Krytox-Grease-Pure-Additives/dp/B00MWLDALQ)
 
 16. For more detailed notes of eye brummel splicing, please see: [animated knots](http://www.animatedknots.com/brummel/#ScrollPoint)
+
+Now you have created a tendon, you can find instructions for replacing a broken tendon [here](How To Replace Finger Tendons)
