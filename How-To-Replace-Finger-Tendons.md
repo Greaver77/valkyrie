@@ -40,3 +40,5 @@ With these tools, the following steps will guide you in replacing a broken tendo
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep9.png" width="250">
 
 10. Free the tendon from the post and pull it out of the forearm.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep10.png" width="500">
