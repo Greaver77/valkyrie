@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 This page provides detailed directions for broken tendons that operate the fingers and thumb on Valkyie's hands. 
 
 ### Tendon-Actuator Routing

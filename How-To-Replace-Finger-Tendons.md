@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 If you do not already have a replacement tendon prepared, you can find instructions for creating new tendons [here](How To Make A Tendon)
 
 ##### Replacing Tendons
@@ -62,3 +60,34 @@ With these tools, the following steps will guide you in replacing a broken tendo
 15. Using a draw wire, pull the distal side of the tendon through the finger links to the distal link. Note that the thumb proximal (motor 5) terminates on the dorsal side of the proximal link of the thumb
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep15.png" width="500">
+
+16. Insert the terminator pin into the loop and straighten the finger to pull the tendon into the slot. You can turn the pull in order to take up any slack.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep16.png" width="500">
+
+17. Rotate the pulley around and bolt it to the output of the actuator. Be sure that the position is within the range of motion of the finger and not near the full open position (the actuator would react poorly if the forearm wakes up with an APS sensor reading out of range – it would likely result in another broken tendon). You may need to hold the finger in a flexed position to enable pulley rotation.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep17.png" width="500">
+
+18. Reinstall the teflon disk, again taking care not to damage or deform the disk. Position the disk so that it is offset in the cutout on the pulley, then slide it into place such that center hole of the disk is concentric with the pulley/magnet.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep18.png" width="500">
+
+19. Rotate the disk so that the flat or cut side of the disk is 180 degrees from the cutout on the pulley.
+
+20. Reinstall the APS sensor.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep20.png" width="500">
+
+21. Ensure that the pin is in place on the distal link. If it is the thumb proximal, add a dab of silicone/RTV at the pin to help hold it in place.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep21.png" width="500">
+
+22. Replace the distal finger nail cover. Be sure to hold it into place against the tension of the rubber band. If you do not, you risk stripping the fine threads that help keep the finger nail in place.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep22.png" width="500">
+
+23. Perform checkout. If the tendon length was changed significantly, a position recal may be required.
+
+24. Reinstall shells, done gloves, and voila. Done.
+
