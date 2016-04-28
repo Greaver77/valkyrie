@@ -49,6 +49,10 @@ Run the following line to ensure all dependencies have been resolved.
     vcs custom --args checkout develop
     rosdep install --from-paths src -i -y
 
+### Build
+    catkin_make install
+    source ~/.bashrc
+
 #### Extra steps for Link/Zelda Processor or Testbed
 Do NOT do this step for developer machines or operator workstations. Move the Vanguard init file:  
 

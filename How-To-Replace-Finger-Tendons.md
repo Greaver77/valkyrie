@@ -34,3 +34,9 @@ With these tools, the following steps will guide you in replacing a broken tendo
 8.  Remove the teflon disk using one or both forceps, being careful not to damage or deform the disk.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep8.png" width="750">
+
+9. Remove the three bolts that fix the pulley to the output of the actuator using the torx T6 driver.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep9.png" width="250">
+
+10. Free the tendon from the post and pull it out of the forearm.
