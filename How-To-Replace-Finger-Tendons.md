@@ -58,3 +58,7 @@ With these tools, the following steps will guide you in replacing a broken tendo
 14. Pull the tendon through and place the loop on the pulley post. Do not yet bolt down the pulley to the output.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep14.png" width="500">
+
+15. Using a draw wire, pull the distal side of the tendon through the finger links to the distal link. Note that the thumb proximal (motor 5) terminates on the dorsal side of the proximal link of the thumb
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep15.png" width="500">
