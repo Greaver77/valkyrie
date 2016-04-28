@@ -42,3 +42,7 @@ With these tools, the following steps will guide you in replacing a broken tendo
 10. Free the tendon from the post and pull it out of the forearm.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep10.png" width="500">
+
+11. Make a new tendon, make sure to properly lubricate it by rubbing krytox into the braid.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep11.png" width="250">
