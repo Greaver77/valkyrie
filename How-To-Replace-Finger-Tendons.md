@@ -36,3 +36,5 @@ With these tools, the following steps will guide you in replacing a broken tendo
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep8.png" width="750">
 
 9. Remove the three bolts that fix the pulley to the output of the actuator using the torx T6 driver.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep9.png" width="500">
