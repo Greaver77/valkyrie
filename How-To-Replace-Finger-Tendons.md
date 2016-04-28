@@ -20,3 +20,5 @@ With these tools, the following steps will guide you in replacing a broken tendo
 4. Remove the distal finger nail cover to expose the terminator pin,
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep4.png" width="500"> 
+
+5. Remove the pin,
