@@ -50,3 +50,7 @@ With these tools, the following steps will guide you in replacing a broken tendo
 12. Using a draw wire, pull the side of the tendon with the larger hole through the base of the finger down to the actuator housing.
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep12.png" width="750">
+
+13. A pair of forceps can be used when the wire peeks through into the housing itself.
+
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep13.png" width="500">
