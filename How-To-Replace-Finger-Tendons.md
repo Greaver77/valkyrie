@@ -45,3 +45,4 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
 11. Make a new tendon, make sure to properly lubricate it by rubbing krytox into the braid.
 
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep11.png" width="250">
