@@ -51,6 +51,6 @@ With these tools, the following steps will guide you in replacing a broken tendo
 
     <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep12.png" width="750">
 
-13. A pair of forceps can be used when the wire peeks through into the housing itself.
+14. Pull the tendon through and place the loop on the pulley post. Do not yet bolt down the pulley to the output.
 
-    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep13.png" width="500">
+    <img src="https://github.com/NASA-JSC-Robotics/valkyrie/wiki/images/TendonReplacementStep14.png" width="500">
