@@ -22,7 +22,7 @@ The second way to get our code, more appropriate for unstable features or live e
 
 ***
 
-Select the appropriate Visualizer Debian package from below:
+**If and only if you are installing a visualizer computer for operating a robot**, select the appropriate Visualizer Debian package from below:
 
 [MIT Vis02](https://drive.google.com/file/d/0B4Esozi1aH0sYkpWVjlTWHZwam8/view?usp=sharing)  
 [NEU Vis03](https://drive.google.com/file/d/0B4Esozi1aH0scGZZN29mYTh1aWc/view?usp=sharing)  
