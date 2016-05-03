@@ -79,3 +79,7 @@ This is a known issue.
 ##### Compile errors
 * Ensure you are on the proper branch (develop most likely)
 * Run the rosdep install line again. Maybe a dependency slipped though the cracks... because gazebo does that.
+* Ensure ros-indigo-ros-base (or desktop) is installed
+
+##### libffi Missing error
+New bug in paramiko, install libffi-dev to resolve the issue.
