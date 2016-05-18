@@ -16,6 +16,7 @@ __Valkyrie__
   * Forearms/Hands
   * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
 * Software
+  * [Software Releases](Software-Releases)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
   * [Shared Memory Transport](Shared-Memory-Transport)
   * [Simulating Valkyrie](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Simulating-Valkyrie)
