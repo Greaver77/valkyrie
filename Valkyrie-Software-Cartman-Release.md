@@ -20,20 +20,19 @@ ui_builder | 8dd5e90fd589a2ddda545354676119e0ad307c14 | 2.0.0
 imu_3dm_gx4_15 | dba8e0b60a4d53b730e817d9777796038fd68afc | 2.0.0
 rtmidi | dd4b28315a4dd7d6196c6fdc2d88b8412e54c1c6 | 3.0.0
 rttlua_completion | 66294e1e70a002eab0f4a6dd0900dc608095833a | 2.0.0
-shared_memory_transport | | 2.0.0
-shared_memory_transport_interface | | 2.0.0
-shared_memory_transport_qt | | 2.0.0
-shared_memory_transport_sliderboard | | 3.0.0
-shared_memory_transport_qt | | 2.0.0
+shared_memory_transport | 54ced609f1cc3a97a846deaf0047ffa9655476a7 | 2.0.0
+shared_memory_transport_interface | 622a94549b6b5b132c7c488add7c1ac9fdc53a1e | 2.0.0
+shared_memory_transport_qt | 88d1f21ae8d9066d1703167e8dd85d659b397b48 | 2.0.0
+shared_memory_transport_sliderboard | 1d73588929feb3b2fbbe5af728197c351dc688c2 | 3.0.0
 nasa_val_common | 4883746a2a6a628a6e0e56ea7e317d7ca235e9c4 | 2.0.0
 athena_api | 4e890e74731ab856c5823d1821982cfc98371d1d | 3.0.0
 athena_hdlrsmp | 9f6d5b4e812c7d07d69c3cdb3f458e9a1db7baa5 | 1.0.0
 nasa_val_config | 801f02422118952c61edd2f426593ca6524bd977 | 2.0.0
 nasa_val_embedded_utils | 652e392da2a04de97741070b2539fce1f142d04e | 3.0.0
-nasa_val_system_config | | 3.0.0
+nasa_val_system_config | 39e7fb8358dd9c2b360b1920a123365a8f288244 | 3.0.0
 power_api | d1571ef534e4cd1877035079ddab77845084b911 | 3.0.0
 robonet_stream_message_protocol | f68f0cd3fb7c2f063c74052be22c871880b868b6 | 2.0.0
-robonet_synapse_driver |  | 2.0.0
+robonet_synapse_driver | c2f9123406001d652bbb44ac8e59ced480774e03 | 2.0.0
 robonet_tools | 293279c4af125de01a892212720ae45f4f80d3e4 | 3.0.0
 turbodriver_api | 9e60bbad54439f85f4e3dd1e7c5d09c78fc94b50 | 2.0.0
 val_control | 81e3166a13c637d5bf869a41c433d45838ac8614 | 3.0.0
@@ -43,9 +42,9 @@ val_description | 280cefa685103b757ca22e883fc0f33cd62db2ad | 3.0.0
 val_gazebo | 1a3b442e4fdddf1981c7eed48b87aad437514051 | 2.0.0
 val_sensor_interfaces | 696355cd7753348c755d5a9510041adedaac9019 | 2.0.0
 val_msgs | ccdb5c7893aefe01268fe29bfb3637b9cdb2fdfe | 2.0.0
-val_vanguard_config | | 1.1.0
+val_vanguard_config | ba1c323d9f3ec599b5efaa1a633ef10ad321f757 | 1.1.0
 val_user_interfaces | 4728fb07b5a8421593a2d57d732bb3ca07a182f6 | 2.0.0
-vanguard | | 1.2.0
+vanguard | 4c17968f8b6a352daea36c0651fb9004605c0285 | 1.2.0
 
 
 ## Help/Troubleshooting
