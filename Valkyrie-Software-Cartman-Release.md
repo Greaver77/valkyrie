@@ -12,19 +12,19 @@ The JSC team is pleased to announce the latest release of Valkyrie Core Software
 ##### Step 1  
 Download the appropriate system configuration package from the selections below.  
   - Robot IO Computer  
-  - [Link 02 MIT]()  
-  - [Link 03 NEU]()  
-  - [Link 03 UoE]()  
+  - [Link 02 MIT](https://drive.google.com/file/d/0B4Esozi1aH0sUHVCVDZiU1lkVEk/view?usp=sharing)  
+  - [Link 03 NEU](https://drive.google.com/file/d/0B4Esozi1aH0sYTlKTW9UTzJ5cnc/view?usp=sharing)  
+  - [Link 04 UoE](https://drive.google.com/file/d/0B4Esozi1aH0sYWZnM3Z4b25qZXM/view?usp=sharing)  
   - Robot Vision Computer  
-  - [Zelda 02 MIT]()  
-  - [Zelda 02 NEU]()  
-  - [Zelda 02 UoE]()  
+  - [Zelda 02 MIT](https://drive.google.com/file/d/0B4Esozi1aH0sd0V1RXNKMGtxZUE/view?usp=sharing)  
+  - [Zelda 03 NEU](https://drive.google.com/file/d/0B4Esozi1aH0sZVY5UjZTekxlN1U/view?usp=sharing)  
+  - [Zelda 04 UoE](https://drive.google.com/file/d/0B4Esozi1aH0sN0VGcFRpSmMtWjA/view?usp=sharing)  
   - Valkyrie Visualizer Computer  
-  - [Vis 02 MIT]()  
-  - [Vis 03 NEU]()  
-  - [Vis 04 UoE]()  
+  - [Vis 02 MIT](https://drive.google.com/file/d/0B4Esozi1aH0sTW9LNDFPbTNkM2c/view?usp=sharing)  
+  - [Vis 03 NEU](https://drive.google.com/file/d/0B4Esozi1aH0sOHRaNndjVGhNVHM/view?usp=sharing)  
+  - [Vis 04 UoE](https://drive.google.com/file/d/0B4Esozi1aH0sWF9lQVY0cGRldFk/view?usp=sharing)  
   - Testbed Computer or Generic Developer  
-  - [Generic System Config]()  
+  - [Generic System Config](https://drive.google.com/file/d/0B4Esozi1aH0sei1kT01MQ2dMbWc/view?usp=sharing)  
 
 ##### Step 2  
 Remove the existing system configuration package. Please note, the new package must be downloaded first.  
