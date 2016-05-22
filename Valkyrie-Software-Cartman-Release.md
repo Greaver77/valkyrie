@@ -6,7 +6,47 @@
 Words here about what this release contains in terms of features
 
 ## How to Install  
-Words
+The JSC team is pleased to announce the latest release of Valkyrie Core Software. The steps below will outline a path to upgrade.
+
+#### Steps
+##### Step 1  
+Download the appropriate system configuration package from the selections below.  
+  - Robot IO Computer  
+  - [Link 02 MIT]()  
+  - [Link 03 NEU]()  
+  - [Link 03 UoE]()  
+  - Robot Vision Computer  
+  - [Zelda 02 MIT]()  
+  - [Zelda 02 NEU]()  
+  - [Zelda 02 UoE]()  
+  - Valkyrie Visualizer Computer  
+  - [Vis 02 MIT]()  
+  - [Vis 03 NEU]()  
+  - [Vis 04 UoE]()  
+  - Testbed Computer or Generic Developer  
+  - [Generic System Config]()  
+
+##### Step 2  
+Remove the existing system configuration package. Please note, the new package must be downloaded first.  
+**NOTE** Backup your current networking settings. Installation of the new system config package will overwrite modifications made to /etc/network/interfaces and /etc/hosts.  
+
+```sudo apt-get remove nasa-val-system-config*```  
+
+##### Step 3  
+Install the downloaded system configuration package.  
+
+```sudo dpkg -i nasa-val-system-config*.deb```  
+
+##### Step 4  
+Remove your existing workspace. 
+
+```rm -rf ~/val_indigo/*```
+
+##### Step 5  
+
+Install a fresh workspace.  
+[Checking out Valkyrie source code](Valkyrie-Source-Code)  
+
 
 ## Listing of hashes for each repo
 
