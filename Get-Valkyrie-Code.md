@@ -22,18 +22,6 @@ The second way to get our code, more appropriate for unstable features or live e
 
 ***
 
-**If and only if you are installing a visualizer computer for operating a robot**, select the appropriate Visualizer Debian package from below:
-
-[MIT Vis02](https://drive.google.com/file/d/0B4Esozi1aH0sYkpWVjlTWHZwam8/view?usp=sharing)  
-[NEU Vis03](https://drive.google.com/file/d/0B4Esozi1aH0scGZZN29mYTh1aWc/view?usp=sharing)  
-[UoE Vis04](https://drive.google.com/file/d/0B4Esozi1aH0sNm1tVkdfUng5SHM/view?usp=sharing)  
-
-Testbed:  
-[Generic System Config](https://drive.google.com/file/d/0B4Esozi1aH0sMDlWN1hPZ2NNamM/view?usp=sharing)  
-[Synapse Driver](https://drive.google.com/file/d/0B4Esozi1aH0sLUJvRHhqYkplVWs/view?usp=sharing)  
-
-***
-
 ## Utils
 
 [Ros Clean Script](Ros-Clean)
