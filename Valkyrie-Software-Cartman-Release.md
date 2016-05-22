@@ -2,11 +2,11 @@
 
 <p align="center">[[images/cartman.png]]</p>  
 
-## Overview  
-Words here about what this release contains in terms of features
+## Prerequisites and Overview    
+The JSC team is pleased to announce the latest release of Valkyrie Core Software. Please refer to the following guide to configure the Multisense IP in preparation for the upgrade to master. [Multisense SL IP Configuration](Multisense-SL).
 
 ## How to Install  
-The JSC team is pleased to announce the latest release of Valkyrie Core Software. The steps below will outline a path to upgrade.
+The steps below will outline a path to upgrade.
 
 #### Steps
 ##### Step 1  
