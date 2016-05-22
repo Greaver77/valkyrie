@@ -46,11 +46,13 @@ Source your completed environment.
 Run the following line to ensure all dependencies have been resolved.  
 
 If using stable Master release:
+
     cd ~/val_indigo
     vcs custom --args checkout master
     rosdep install --from-paths src -i -y
 
 If using unstable Develop code:
+
     cd ~/val_indigo
     vcs custom --args checkout develop
     rosdep install --from-paths src -i -y
