@@ -15,4 +15,15 @@ This page describes all of the signals that are populated by Valkyrie's motor co
 | JointAPS_Vel_Radps | Angular velocity | radians/sec | Calculated from motor side encoder plus spring deflection sensor.  The velocity calculation is a finite difference on position then filtered using an alpha filter. |
 | JointTorque_Meas_Nm | Torque | Nm     | Calculated from 32 bit sensor located across the torsional spring. |
 
-### 
+### Electrical Variables
+| Name            | Description | Units | Notes |
+|-----------------|-------------|-------|-------|
+| BusVoltage_V | Motor Bus Voltage at driver | V | Shows if driver is getting motor power.  Can be used to diagnose wiring or power dropouts. |
+| Current_Abs_Amps | Driver output current | A | Moving average of absolute value of three phase current output by the motor driver. |
+
+### Health Variables
+| Name            | Description | Units | Notes |
+|-----------------|-------------|-------|-------|
+| Proc_HeartBeat | Driver heart beat |  | Increasing number sent from driver.  Used to ensure comm and driver are active. |
+| StatReg1 | Status of driver commands |  |  |
+| StatReg2 | Status of driver faults |  |  |
