@@ -15,7 +15,7 @@ __Valkyrie__
   * [Sensors](Sensors)
   * Forearms/Hands
   * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
-  * [Turbodriver Signals]
+  * [Turbodriver Signals](Turbodriver Signals)
 * Software
   * [Software Releases](Software-Releases)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
