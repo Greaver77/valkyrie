@@ -10,6 +10,7 @@ This page describes all of the signals that are populated by Valkyrie's motor co
 
 ### Kinematic Variables
 Kinematic variables can be configured to use several different inputs or filters.  The following are the recommended and default variables used at the time of writing.  Please consult [Kinematic Variable Reporting Configuration](Joint Kinematic Variable Reporting Configuration)
+
 | Name            | Description | Units | Notes |
 |-----------------|-------------|-------|-------|
 | JointAPS_Angle_Rad | Angular position | radians | Calculated from 13-bit output sensor located at the output of the actuator. |
