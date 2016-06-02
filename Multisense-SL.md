@@ -28,6 +28,15 @@ If your Multisense sensor is not at the factory default then it should be reset 
 
 ###Resetting to Factory Default
 
+To reset the Multisense to the factory default you need to have a computer that is on the same network of the Multisense (for old Valkyrie multisenses the network it 10.185.0.* with a safe ip address for the computer being something like 10.185.0.110). 
+
+To rest the ip address of the device run the command:
+```
+rosrun multisense_lib ChangeIpUtility -b <network interface>
+```
+
+Where the <network interface> is the interface that has the connection to the multisense (usually eth0).
+##NOTE: This command must be run as root
 
 
 Also need to add pictures/video?/gif of how to route the ethernet cable of the Multisense from the primary onboard switch to Zelda's second NIC.  
