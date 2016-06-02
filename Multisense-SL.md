@@ -30,7 +30,7 @@ If your Multisense sensor is not at the factory default then it should be reset 
 
 To reset the Multisense to the factory default you need to have a computer that is on the same network of the Multisense (for old Valkyrie multisenses the network it 10.185.0.* with a safe ip address for the computer being something like 10.185.0.110). We also assume that you have installed the ros multisense driver.
 
-To rest the ip address of the device run the command:
+To reset the ip address of the device run the command:
 ####NOTE: This command must be run as root
 ```
 rosrun multisense_lib ChangeIpUtility -b <network interface>
