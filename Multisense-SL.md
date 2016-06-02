@@ -40,7 +40,7 @@ Where the <network interface> is the interface that has the connection to the Mu
 
 ###Set the Multisense to the new ip address
 
-to set the Multisense to the correct ip address, you will first need to change the network to the same on that is used by the Multisense (it is recommended to use 10.66.171.20 for you ip address). Also note the mtu of 7200 that is used by the Multisense.
+To set the Multisense to the correct ip address, you will first need to change the network to the same on that is used by the Multisense (it is recommended to use 10.66.171.20 for you ip address). Also note the mtu of 7200 that is used by the Multisense.
 
 Once the ip address of the computer talking to the multisense is set up, run the following command:
 ```
