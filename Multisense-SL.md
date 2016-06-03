@@ -51,6 +51,9 @@ where the <ip address> is the address corresponding to the robot in the table th
 
 ##Hardware wiring
 
+The following contains information on the Ethernet setup of the Multisense.
+
+
 Also need to add pictures/video?/gif of how to route the ethernet cable of the Multisense from the primary onboard switch to Zelda's second NIC.  
 
 ## Overview  
