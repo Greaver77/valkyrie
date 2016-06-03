@@ -9,7 +9,7 @@ This page describes all of the signals that are populated by Valkyrie's motor co
 | LogicCardTemp_C | Located on the motor drive logic circuitry. |  C     | This sensor gives the best approximation of ambient temperature near the motor driver.  Large temperatures on this sensor implies poor airflow.      |
 
 ### Kinematic Variables
-Kinematic variables can be configured to use several different inputs or filters.  The following are the recommended and default variables used at the time of writing.  Please consult [Kinematic Variable Reporting Configuration](Joint Kinematic Variable Reporting Configuration)
+Kinematic variables can be configured to use several different inputs or filters.  The following are the recommended and default variables used at the time of writing.
 
 | Name            | Description | Units | Notes |
 |-----------------|-------------|-------|-------|
