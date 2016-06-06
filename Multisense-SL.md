@@ -63,7 +63,6 @@ To update the hardware to be in line with a post Cartman release, follow the fol
 3. Plug in a Cat. 5e or Cat. 6 cable between 2 to 5 feet in length into the other end of the pass through.
 4. Run the cable from under the battery/battery mass sim up between the Secondary and the mounting bracket on the robot's left hand side.
 5. Plug the cable into the open port on the computer (Zelda).
-6. Profit?
 
 
 Also need to add pictures/video?/gif of how to route the ethernet cable of the Multisense from the primary onboard switch to Zelda's second NIC.  
