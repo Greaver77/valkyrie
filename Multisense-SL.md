@@ -52,6 +52,18 @@ where the <ip address> is the address corresponding to the robot in the table th
 ##Hardware wiring
 
 The following contains information on the Ethernet setup of the Multisense.
+As part of the [Cartman Release](Valkyrie-Software-Cartman-Release) we are modifying the connectivity path of the Multisense. This has shown in testing to be more stable and achieve overall better bandwidth.
+
+All setups prior to release Cartman had the ethernet for the Multisense plugged directly into the switch on the back of the Valkyrie robot directly beneath the batter/batter mass simulator. Following the release of Cartman, the Multisense line is plugged directly into zelda (the computer on Valkyrie's left hand side). 
+
+To update the hardware to be in line with a post Cartman release, follow the following instructions
+
+1. Unplug the cable that runs from the Multisense to the switch from the switch (the cable runs down the robot's right side).
+2. plug the now open end (the end that used to plug into the switch) into a pass through. We have used a Keystone Jack EIA-T568B for our pass through.
+3. Plug in a Cat. 5e or Cat. 6 cable between 2 to 5 feet in length into the other end of the pass through.
+4. Run the cable from under the battery/battery mass sim up between the Secondary and the mounting bracket on the robot's left hand side.
+5. Plug the cable into the open port on the computer (Zelda).
+6. Profit?
 
 
 Also need to add pictures/video?/gif of how to route the ethernet cable of the Multisense from the primary onboard switch to Zelda's second NIC.  
