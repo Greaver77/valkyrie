@@ -45,4 +45,18 @@ Kinematic variables can be configured to use several different inputs or filters
 |Aps2_Raw |Output Encoder Reading |Counts | read from 13-bit position sensor located on the output side of pulley motor system|
 |ActualDuty | Applied Duty | Percent | Duty percent that is actively applied to the motor|
 
+## Sensor Topics
+
 ### IMU Sensor Topics
+|Name       | Description | Units | Notes |
+|-----------|-------------|-------|-------|
+|QuaternionW | w quaternion component | | rotation magnitude of quaternion as read by imu |
+|QuaternionX | x quaternion component | | x component of quaternion rotation as read by imu |
+|QuaternionY | y quaternion component | | y component of quaternion rotation as read by imu |
+|QuaternionZ | z quaternion component | | z component of quaternion rotation as read by imu |
+|AngularVelocityX | Imu angular velocity x | rad/s | angular velocity about the body fixed x axis of the imu|
+|AngularVelocityY | Imu angular velocity y | rad/s | angular velocity about the body fixed y axis of the imu|
+|AngularVelocityZ | Imu angular velocity z | rad/s | angular velocity about the body fixed z axis of the imu|
+|LinearAccelerationX | Imu linear acceleration x| m/s^2 | linear acceleration along the body fixed x axis of the imu|
+|LinearAccelerationY | Imu linear acceleration y| m/s^2 | linear acceleration along the body fixed y axis of the imu|
+|LinearAccelerationZ | Imu linear acceleration z| m/s^2 | linear acceleration along the body fixed z axis of the imu|
