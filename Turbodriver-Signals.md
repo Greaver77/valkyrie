@@ -29,3 +29,20 @@ Kinematic variables can be configured to use several different inputs or filters
 | Proc_HeartBeat | Driver heart beat |  | Increasing number sent from driver.  Used to ensure comm and driver are active. |
 | StatReg1 | Status of driver commands |  |  |
 | StatReg2 | Status of driver faults |  |  |
+
+## Forearm Signals
+
+### Forearm Status
+|Name      | Description | Units | Notes |
+|----------|-------------|-------|-------|
+|OT_STATUS | Status of the athena| | Any value other than 0 means that the athena board is faulted, faulting all actuators associated with that board|
+
+### Additional Forearm Topics
+|Name      | Description | Units | Notes |
+|----------|-------------|-------|-------|
+|currentPosRad | Current Angular Position | Rad | Unique to Thumb Roll, gives the current position in Rad as read from the output hall effect sensor|
+|Aps1_Raw |Input Encoder Reading |Counts | read from 13-bit position sensor located on input side of motor shaft|
+|Aps2_Raw |Output Encoder Reading |Counts | read from 13-bit position sensor located on the output side of pulley motor system|
+|ActualDuty | Applied Duty | Percent | Duty percent that is actively applied to the motor|
+
+### IMU Sensor Topics
