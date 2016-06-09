@@ -60,12 +60,17 @@ To update the hardware to be in line with a post Cartman release, follow the fol
 
 1. Unplug the cable that runs from the Multisense to the switch from the switch (the cable runs down the robot's right side).
 2. plug the now open end (the end that used to plug into the switch) into a pass through. We have used a Keystone Jack EIA-T568B for our pass through (see image bellow for location of the passthrough and the switch at the rear of the robot).
-<p align="center">[[images/Multisense_Passthrough/PassThroughWithSwitch.png]]</p>
+<p align="center">[[images/Multisense_Passthrough/PassThroughWithSwitch.png]]
+image of the rear switch and the pass through connector</p>
 3. Plug in a Cat. 5e or Cat. 6 cable between 2 to 5 feet in length into the other end of the pass through (see image bellow for image of passthrough as mounted on the robot).
 <p align="center">[[images/Multisense_Passthrough/PassThroughUpClose.png]]
-Image of the bracket from bellow.</p>  
+Close up image of the mounting of the pass through ethernet connector</p>  
 4. Run the cable from under the battery/battery mass sim up between the Secondary and the mounting bracket on the robot's left hand side (see images bellow for how the wire is to pass through the lower left hand side robot).
-<p align="center">[[images/Multisense_Passthrough/MountingBracketUnderView.png]]</p> 
+<p align="center">[[images/Multisense_Passthrough/MountingBracketUnderView.png]]
+Image of the bracket from bellow</p> 
+
+<p align="center">[[images/Multisense_Passthrough/MountingBracketSideView.png]]
+Image of the bracket from the side</p> 
 5. Plug the cable into the open port on the computer (Zelda).
 
 
