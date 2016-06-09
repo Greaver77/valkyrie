@@ -1,5 +1,3 @@
-[[images/under_construction.png]]
-
 This page needs to contain the instructions for accessing and modifying the IPs of the Multisense.  
 
 ##Table of Robot Multisense I.P. Addresses
