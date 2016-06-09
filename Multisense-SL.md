@@ -68,7 +68,6 @@ Close up image of the mounting of the pass through ethernet connector</p>
 4. Run the cable from under the battery/battery mass sim up between the Secondary and the mounting bracket on the robot's left hand side (see images bellow for how the wire is to pass through the lower left hand side robot).
 <p align="center">[[images/Multisense_Passthrough/MountingBracketUnderView.png]]
 Image of the bracket from bellow</p> 
-
 <p align="center">[[images/Multisense_Passthrough/MountingBracketSideView.png]]
 Image of the bracket from the side</p> 
 5. Plug the cable into the open port on the computer (Zelda).
