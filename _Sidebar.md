@@ -5,7 +5,7 @@ __Useful Links__
 * [How To Make Github Wikis](How-To-Make-Wikis)
 * [[Glossary Of Terms|Glossary-Of-Terms]]
 * [[Contact Us|Contact-Us]]
-* [Trouble Shooting](Trouble-Shooting)
+* [Trouble Shooting](Trouble Shooting)
 
 __Valkyrie__
 * Hardware
@@ -15,7 +15,7 @@ __Valkyrie__
   * [Sensors](Sensors)
   * Forearms/Hands
   * [Ring LED Legend](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Ring-LED-Legend)
-  * [Turbodriver Signals](Turbodriver Signals)
+  * [Turbodriver Signals](Turbodriver-Signals)
 * Software
   * [Software Releases](Software-Releases)
   * [Get Valkyrie Code](https://github.com/NASA-JSC-Robotics/valkyrie/wiki/Get-Valkyrie-Code)
