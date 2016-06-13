@@ -5,7 +5,7 @@ __Useful Links__
 * [How To Make Github Wikis](How-To-Make-Wikis)
 * [[Glossary Of Terms|Glossary-Of-Terms]]
 * [[Contact Us|Contact-Us]]
-* [Trouble Shooting](Trouble Shooting)
+* [Trouble Shooting](Trouble-Shooting)
 
 __Valkyrie__
 * Hardware
