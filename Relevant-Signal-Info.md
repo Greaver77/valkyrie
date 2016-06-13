@@ -68,5 +68,6 @@ Kinematic variables can be configured to use several different inputs or filters
 |:----------:|:----------------------:|:----------------------:|:---------------------:|
 | Hip Roll/Pitch/Yaw | APS mounted on output | Finite difference on motor encoder position + spring deflection | Joint spring deflection sensor |
 | Knee | APS mounted on output | Finite difference on motor encoder position + spring deflection | Joint spring deflection sensor |
-| Torso/Ankle Roll/Pitch | APS mounted on output | Pushrod transmission converting pushrod velocity to joint velocity. The pushrod velocity consists of linear pushrod velocity + spring deflection rate | Futek single axis force sensor |
+| Ankle Roll/Pitch | APS mounted on output | Pushrod transmission converting pushrod velocity to joint velocity. The pushrod velocity consists of linear pushrod velocity + spring deflection rate | Pushrod transmission converting pushrod force to joint torque. Pushrod force is obtained via the Futek single axis force sensors|
+| Torso Roll/Pitch | APS mounted on output | Pushrod transmission converting pushrod velocity to joint velocity. The pushrod velocity consists of linear pushrod velocity + spring deflection rate | Pushrod transmission converting pushrod force to joint torque. Pushrod force is obtained via the Renishaw spring deflection sensors|
 | Shoulder & Elbow Joints Roll/Pitch/Yaw | APS mounted on output | Finite difference on motor encoder position + spring deflection | Joint spring deflection sensor |
