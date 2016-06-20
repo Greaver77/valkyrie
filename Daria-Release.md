@@ -9,7 +9,7 @@
 The main focus for this release is centered around getting a better handle on our embedded code repositories as well as improving our firmware loader. The benefits of these being,
 
 - Making it easier to iterate on and create future releases of embedded software
-- Setup our firmware loader so that binaries from embedded code updates can be downloaded and deployed to turbodrivers from remote locations automatically.
+- Setup our firmware loader so that binaries from embedded code updates can be downloaded and deployed to turbodrivers in remote locations automatically.
 
 Other features that will be added in this release include,
 
