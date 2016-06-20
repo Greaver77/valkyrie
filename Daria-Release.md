@@ -1,4 +1,4 @@
-# Valkyrie Software Cartman Release  
+# Valkyrie Software Daria Release  
 
 <p align="center">[[images/Daria_release_image.png]]</p>  
 
