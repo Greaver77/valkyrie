@@ -15,5 +15,5 @@ Other features that will be added in this release include,
 
 - Better handling of IMU error packets. The bad packets will still occur, but we now properly handle the bad packets and the cleanly shut down the controller manager. This will no longer cause ui_builder to freeze. 
 - The Force/Torque sensors are correctly in the URDF as a fixed joint as is done with the IMU's and cameras.
-- Official switch to [Gazebo 7](http://gazebosim.org/#collapseVersion7_1). Since Gazebo 4 is EOL, we have been working with the folks at OSRF to switch to Gazebo 7. 
+- Official switch to [Gazebo 7](http://gazebosim.org/#collapseVersion7_1). Since Gazebo 4 is EOL, we have been working with the folks at OSRF to switch to Gazebo 7 and expect to be ready to officially abandon Gazebo 4. 
 
