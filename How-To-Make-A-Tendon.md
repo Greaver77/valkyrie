@@ -22,6 +22,10 @@ Each forearm has slightly different tendon lengths. When replacing a tendon, mak
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | v_h_005 | 12.1 | 9.625 | 10.6 | 13.35 | 11.25 |
 | v_h_006 | 12.5 | 9.5 | 10.5 | 13.375 | 10.75 |
+| v_h_007 | 12.25 | 9.625 | 10.85 | 13.35 | 11.25 |
+| v_h_008 | 12.25 | 9.5 | 10.5 | 13.375 | 10.75 |
+| v_h_003 | 12 | 9.625 | 10.5 | 13.25 | 11.25 |
+| v_h_004 | 12.25 | 9.5 | 10.5 | 13.375 | 10.75 |
 
 ### Tendon Making Protocol
 You will need the following tools,
