@@ -97,11 +97,15 @@ Init rosdep.
 
     sudo rosdep init
 
+If you're upgrading from an older install, please run this line.  
+
+    sudo rm /etc/ros/rosdep/sources.list.d/12-nasa-gazebo4.list  
+
 Add sources to your rosdep lists.
 
     sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-common.yaml"  > /etc/ros/rosdep/sources.list.d/10-nasa-common.list'
     sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-trusty.yaml"  > /etc/ros/rosdep/sources.list.d/11-nasa-trusty.list'
-    sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-gazebo4.yaml" > /etc/ros/rosdep/sources.list.d/12-nasa-gazebo4.list'
+    sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-indigo-gazebo7.yaml" > /etc/ros/rosdep/sources.list.d/12-nasa-indigo-gazebo7.list'
 
 Update your sources. DO NOT run as root.
 
