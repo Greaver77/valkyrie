@@ -1,6 +1,6 @@
 ## What happens if you want to back up your current env?
 
-Because a lot of the dependencies are Debian based and frankly there isn't a great way to roll back Debians, there will always be risk to trying an upgrade. However we can at least snapshot you're environment variables and repositories so that we have a place to start if a roll-back is required.  
+A lot of NASA/ROS dependencies are Debian based. There is not a great way to roll back Debians, so there will always be risk to trying an upgrade. However we can at least snapshot you're environment variables and repositories so that we have a place to start if a roll-back is required.  
 
 Run the following commands on every system. (Link/Zelda/Workstation/etc).
 
