@@ -53,7 +53,11 @@ Now click on the 'Low Pass Filter 1' tab. If you have a GX4-15 model, it may jus
 
 [[images/MIPMonitorDeviceSetupLowPassFilter1Tab.png]]
 
-Configure both the Accel and Gyro filters to filter at 50Hz.  **If** you have a GX4-25, click the 'Low Pass Filter 2' tab, and configure the filter on the Mag to also filter at 50Hz,
+Configure both the Accel and Gyro filters to filter at 50Hz. Now set the gravity correction time based on the IMU your using(pelvis or torso). See the table above for the recommended value for your IMU. The UI should look something like this,
+
+[[images/IMU_GravityCorrection_image.png]]
+
+**If** you have a GX4-25, click the 'Low Pass Filter 2' tab, and configure the filter on the Mag to also filter at 50Hz,
 
 [[images/MIPMonitorDeviceSetupLowPassFilter2Tab.png]]
 
