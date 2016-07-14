@@ -9,6 +9,12 @@ This page gives detailed instructions for configuring the Microstrain IMU's on V
 
 **Note: Some of the text in the MIP Monitor UI's may differ slightly from the images seen here. This is likely due to different versions of the MIP Monitor software. It should, however, be very similar and close enough to get you through the configuration process. If you have questions, feel free to [contact us](Contact Us)**
 
+If you already know what your doing and don't need a full walkthrough, the following table displays the settings needed that differ from the default,
+
+| | Pelvis Rear IMU|Pelvis Middle IMU|Torso IMU|
+|:-:|:-------------:|:---------------:|:-------:|
+| Orientation Rate | 250Hz | 250Hz | 250Hz |
+
 ## Configuring the IMU
 The instructions here are written using a 3DM-GX4-25, however, the instructions for the 3DM-GX4-15 are the same with the exception of the magnetometer stuff.
 
