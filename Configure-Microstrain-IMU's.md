@@ -18,7 +18,7 @@ If you already know what your doing and don't need a full walkthrough, the follo
 | Linear Acceleration Rate(Hz) | 250 | 250 | 250 |
 | Linear Accel Filter Freq(Hz) | 50 | 50 | 50 |
 | Angular Velocity Filter Freq(Hz) | 50 | 50 | 50 |
-| Gravity Correction(s) | 50.0 | 50 | 10 |
+| Gravity Correction(s) | 50 | 50 | 10 |
 
 ## Configuring the IMU
 The instructions here are written using a 3DM-GX4-25, however, the instructions for the 3DM-GX4-15 are the same with the exception of the magnetometer stuff.
