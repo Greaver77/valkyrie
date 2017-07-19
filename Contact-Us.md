@@ -2,12 +2,6 @@
 *You have questions, we probably have answers.*  
 
 #### Contact Methods
-##### Join the conversation on [Slack](nasa-valkyrie-robot.slack.com)! 
-You'll need an invitation though, helps keep out the riffraff. Email Kody Ensley, kody.g.ensley@nasa.gov and/or Jordan Lack, jordan.t.lack@nasa.gov for an invitation!  
-
-[What is Slack?](https://slack.com/is)  
-
-##### Email is still a thing right?  
 * General Hardware: James Holley, james.j.holley@nasa.gov  
 * General Electrical: Kris Verdeyen, william.k.verdeyen@nasa.gov
 * Space Robotics Challenge: Kim Hambuchen kimberly.a.hambuchen@nasa.gov  
